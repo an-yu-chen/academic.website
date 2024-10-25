@@ -16,7 +16,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "CV", file: "/assets/anyu.pdf" }
+  - {title: "CV", url: "/assets/anyu.pdf"  }
   - {title: "Doctoral Researcher", url: "https://research.manchester.ac.uk/en/persons/anyu.chen-postgrad"}
   - {title: "Biography", file: "blog.md"}
   - {title: "Working Paper", file: "paper.md"}
