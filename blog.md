@@ -3,6 +3,10 @@ layout: default
 title: "Biography"
 ---
 
+{:refdef: style="text-align: center;”]}
+![title](/assets/ann.png)
+ {: refdef}
+
 ## Biography
  
 >I'm An Yu Chen, a doctoral researcher in Science, Technology, and Innovation Policy at Alliance Manchester Business School (AMBS) within the University of Manchester. At the same time, I have a research affiliation to the Manchester Institute of Innovation Research (MIoIR). 
