@@ -18,7 +18,8 @@ title: "Home"
 </div>
 
 <div style="text-align: center; margin-top: 30px;">
-  <img src="/assets/ann.jpg" alt="An Yu Chen" style="max-width: 300px; border-radius: 50%; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
+  <!-- Circular image with pink ring -->
+  <img src="/assets/ann.jpg" alt="An Yu Chen" style="width: 250px; height: 250px; border-radius: 50%; border: 10px solid pink; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
 </div>
 
 <div style="text-align: center; padding: 30px; background: #f4f4f4; color: #2c3e50; font-family: 'Arial', sans-serif;">
