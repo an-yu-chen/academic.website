@@ -1,37 +1,35 @@
 title: "An Yu Chen"
 author: "Blog Author"
-description: "An Yu Chen"
+description: "An Yu Chen's Personal Site"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
  
 # Layout
+show_excerpts: false        # Do not show article excerpts on the home page
+show_frame: true            # Adds a subtle gray frame to the site
+show_sidebar: false         # Use a centered header instead of a sidebar
+minimal: false              # Use a colorful header
 
-show_excerpts: false        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-minimal: false             # use a dark header
+# Navigation Menu
+navigation:                 # Navigation links with icons for clarity
+  - {title: "CV", url: "/assets/anyu.pdf", icon: file-alt}
+  - {title: "Doctoral Researcher", url: "https://research.manchester.ac.uk/en/persons/anyu.chen-postgrad", icon: graduation-cap}
+  - {title: "Biography", file: "blog.md", icon: user-circle}
+  - {title: "Working Paper", file: "paper.md", icon: file-alt}
+  - {title: "Contact", file: "contact.md", icon: envelope}
 
-# Menu
-
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "CV", url: "/assets/anyu.pdf"  }
-  - {title: "Doctoral Researcher", url: "https://research.manchester.ac.uk/en/persons/anyu.chen-postgrad"}
-  - {title: "Biography", file: "blog.md"}
-  - {title: "Working Paper", file: "paper.md"}
-  - {title: "Contact", file: "contact.md"}
-
-
-  
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+# Footer Social Links
+external:                   # Vibrant footer icons for social links
   - {title: Mail, icon: envelope, url: "mailto:chen.an.yu@outlook.com"}
   - {title: Github, icon: github, url: "https://github.com/an-yu-chen"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
+#  disqus_shortname: ""    # Enable if using Disqus
+#  isso_domain: ""         # Enable if using Isso
 
 plugins:
  - jekyll-feed
+ 
