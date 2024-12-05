@@ -4,8 +4,7 @@ title: "Biography"
 ---
 
 <div style="text-align: center; color: #2c3e50; font-family: 'Arial', sans-serif;">
-  <img src="/assets/ann.png" alt="title" style="max-width: 200px; border-radius: 50%; margin: 20px auto;">
-  <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 10px;">Biography</h1>
+   <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 10px;">Biography</h1>
   <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto; line-height: 1.6;">
     I’m an academic and holistic thinker who loves addressing intricate problems. I enjoy participating in academic networking events and meeting like-minded people!
   </p>
