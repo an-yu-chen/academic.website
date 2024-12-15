@@ -4,6 +4,7 @@ title: "Home"
 ---
 
 <div style="text-align: center; padding: 50px; background: linear-gradient(135deg, #1abc9c, #3498db); color: white;">
+  <img src="assets/profile_picture.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid white; margin-bottom: 20px;">
   <h1 style="font-size: 3rem; margin-bottom: 20px;">Hello and Welcome!</h1>
   <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto; line-height: 1.6;">
     I’m <b>An Yu Chen</b>, a doctoral researcher passionate about uncovering the intricate linkages between science and technology. My research explores how science contributes to green technologies, shaping a sustainable future. Let's dive into a world of ideas, innovation, and impact!
@@ -15,16 +16,21 @@ title: "Home"
       Download My CV
     </button>
   </a>
+
+  <!-- LinkedIn icon -->
+  <div style="margin-top: 20px;">
+    <a href="https://www.linkedin.com/in/an-yu-chen-130146342/" target="_blank">
+      <img src="assets/linkedin_icon.png" alt="LinkedIn" style="width: 40px; height: 40px; margin-top: 10px;">
+    </a>
+  </div>
 </div>
-
-
 
 <div style="text-align: center; padding: 30px; background: #f4f4f4; color: #2c3e50; font-family: 'Arial', sans-serif;">
   <h2 style="font-size: 2rem; color: #3498db;">Research Interests</h2>
   <p style="font-size: 1.1rem; max-width: 800px; margin: 0 auto; line-height: 1.8;">
     My research investigates the linkages between science and technology, with a focus on the scientific knowledge base in green technologies. Through this, I aim to explore knowledge flows across fields of science, contributing to science and technology policy discussions.
   </p>
-  
+
   <h2 style="font-size: 2rem; color: #1abc9c; margin-top: 40px;">Impact</h2>
   <p style="font-size: 1.1rem; max-width: 800px; margin: 0 auto; line-height: 1.8;">
     My work addresses whether science can drive the advancement of emerging technologies, shaping discussions on sustainability and policy while identifying new avenues for research.
