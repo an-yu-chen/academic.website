@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-<div style="text-align: center; padding: 50px; background: linear-gradient(135deg, #1abc9c, #3498db); color: white;">
+<div style="text-align: center; padding: 50px; background: linear-gradient(135deg, #fbe7a1, #f8c1cc); color: white;">
   <img src="assets/profile_picture.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #2c3e50; margin-bottom: 20px;">
   <h1 style="font-size: 3rem; margin-bottom: 20px; color: #2c3e50;">Hello and Welcome!</h1>
   <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto; line-height: 1.6; color: #2c3e50;">
