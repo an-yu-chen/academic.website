@@ -13,7 +13,7 @@ title: "Home"
   <!-- Button for CV download -->
   <a href="assets/anyu.pdf" target="_blank" style="text-decoration: none;">
     <button style="background-color: white; color: #f8c1cc; border: none; padding: 10px 20px; font-size: 1.2rem; border-radius: 25px; cursor: pointer; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin-top: 20px;">
-      Download My CV
+      My CV
     </button>
   </a>
 
