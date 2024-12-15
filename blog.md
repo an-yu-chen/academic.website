@@ -4,7 +4,7 @@ title: "Biography"
 ---
 
 <div style="text-align: center; padding: 30px; background: linear-gradient(135deg, #fbe7a1, #f8c1cc); color: #2c3e50;">
-  <img src="assets/other_profile_picture.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #2c3e50; margin-bottom: 20px;">
+   
   <h1 style="font-size: 2.5rem; font-weight: bold;">Biography</h1>
   <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto; line-height: 1.6;">
     I’m an academic and holistic thinker who loves addressing intricate problems. I enjoy participating in academic networking events and meeting like-minded people!
@@ -21,7 +21,7 @@ title: "Biography"
     My work has mostly focused on green technologies—where the diversity of components and uncertainties raises questions about how to better develop them through the synergy between science, technology, and collaboration among various actors in research networks. I am also interested in knowledge flows and production in critical technologies such as AI and its applications.
   </blockquote>
 
-  <h2 style="text-align: center; color: #fbe7a1; margin-top: 40px;">Research Theme Significance</h2>
+  <h2 style="text-align: center; color: #2c3e50; margin-top: 40px;">Research Theme Significance</h2>
   <blockquote style="border-left: 5px solid #fbe7a1; padding-left: 20px; margin: 20px 0; line-height: 1.8;">
     The linkages between science and technology hold significant promise for important emerging fields, such as AI and green technologies, which shape how we address grand societal challenges. 
     
