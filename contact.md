@@ -4,7 +4,7 @@ title: "Contact"
 ---
 
 <div style="text-align: center; padding: 30px; background: linear-gradient(135deg, #fbe7a1, #f8c1cc); color: #2c3e50;">
-  <img src="assets/other_profile_picture.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #f8c1cc; margin-bottom: 20px;">
+  <img src="assets/profile_picture.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #f8c1cc; margin-bottom: 20px;">
 
   <h1 style="font-size: 2.5rem; margin-bottom: 20px; color: #34495e;">Get in Touch</h1>
 
