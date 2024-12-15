@@ -13,8 +13,7 @@ title: "Biography"
 
 <div style="max-width: 800px; margin: 30px auto; font-family: 'Arial', sans-serif; color: #2c3e50;">
 
-  <h2 style="text-align: center; color: #f8c1cc; margin-top: 20px;">Biography</h2>
-  <blockquote style="border-left: 5px solid #f8c1cc; padding-left: 20px; margin: 20px 0; line-height: 1.8;">
+   <blockquote style="border-left: 5px solid #f8c1cc; padding-left: 20px; margin: 20px 0; line-height: 1.8;">
     I train as a doctoral researcher at the University of Manchester's Alliance Manchester Business School, where I am interested in the knowledge production and exchange in emerging technology areas such as green technologies and AI. At the same time, I worked as a research assistant for Prof. Cornelia Lawson, where we were building a UK doctoral graduate database. I am interested in exploring how research and science in the UK translate into technological practices and applications (please see: 
     <a href="https://www.mioir.manchester.ac.uk/research/projects/uk-dgci/" style="color: #3498db;">UK DGCI</a>).
     
