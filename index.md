@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home"
+title: "Home" 
 ---
 
 <div style="text-align: center; padding: 50px; background: linear-gradient(135deg, #1abc9c, #3498db); color: white;">
