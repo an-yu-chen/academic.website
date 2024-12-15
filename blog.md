@@ -39,7 +39,7 @@ title: "Biography"
     I enjoy learning programming and novel methods, such as machine learning and semantic similarity. I’m passionate about sustainability in addressing environmental change and exploring evolving government policies to promote a green future.
   </blockquote>
 
-  <h2 style="text-align: center; color: #fbe7a1; margin-top: 40px;">Teaching</h2>
+  <h2 style="text-align: center; color: #2c3e50; margin-top: 40px;">Teaching</h2>
   <blockquote style="border-left: 5px solid #fbe7a1; padding-left: 20px; margin: 20px 0; line-height: 1.8;">
     During my PhD in 2023, I had minimal teaching commitments with the Department of Computer Science at the University of Manchester. I worked closely with Dr. Gareth Henshall’s team to deliver courses, workshops, and labs on Database Systems. I also assisted undergraduate student groups with their projects and assignments on database design.
   </blockquote>
