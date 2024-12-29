@@ -20,7 +20,7 @@ title: "Home"
   <!-- LinkedIn icon -->
   <div style="margin-top: 20px;">
     <a href="https://www.linkedin.com/in/an-yu-chen-130146342/" target="_blank">
-      <img src="assets/linkedin_icon.png" alt="LinkedIn" style="width: 40px; height: 40px; margin-top: 10px;">
+      <img src="assets/linkedin_icon.png" alt="LinkedIn" style="width: 400px; height: 400px; margin-top: 100px;">
     </a>
   </div>
 </div>
