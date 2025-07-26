@@ -5,7 +5,7 @@ title: "Biography"
 <div style="text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #e3f2fd, #fefefe); color: #1a237e; font-family: 'Segoe UI', 'Roboto', sans-serif;">
   <h1 style="font-size: 3rem; font-weight: bold;">Biography</h1>
    <p style="font-size: 1.2rem; max-width: 850px; margin: 0 auto; line-height: 1.7; color: #37474f;">
-    I am a Research Associate at the University of Manchester’s Alliance Manchester Business School and a member of the Manchester Institute of Innovation Research. I am committed to research that contributes to real-world impact—through rigorous analysis, collaborative projects, and policy engagement.
+    I am a Research Associate at the University of Manchester’s Alliance Manchester Business School and a member of the Manchester Institute of Innovation Research. I am committed to research that contributes to real-world impact—through rigorous analysis, collaborative projects, and policy engagement. My doctoral research explores the intricate linkages between science and technology, shedding light on how science contributes to green technologies. Let's dive into a world of ideas, innovation, and impact!
   </p>
 </div>
 
