@@ -7,7 +7,7 @@ title: "Home"
   <img src="assets/profile_picture.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid white; margin-bottom: 20px;">
   <h1 style="font-size: 3rem; margin-bottom: 20px; color: #2c3e50;">Hello and Welcome!</h1>
   <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto; line-height: 1.6; color: #2c3e50;">
-    I’m <b>An Yu Chen</b>, a doctoral researcher passionate about uncovering the intricate linkages between science and technology. My research explores how science contributes to green technologies, shaping a sustainable future. Let's dive into a world of ideas, innovation, and impact!
+    I’m <b>An Yu Chen</b>, a Research Associate at the University of Manchester’s Alliance Manchester Business School and a member of the Manchester Institute of Innovation Research. I am committed to research that contributes to real-world impact—through rigorous analysis, collaborative projects, and policy engagement. My doctoral research explores the intricate linkages between science and technology, shedding light on how science contributes to green technologies. Let's dive into a world of ideas, innovation, and impact!
   </p>
   
   <!-- Button for CV download -->
