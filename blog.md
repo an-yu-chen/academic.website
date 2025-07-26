@@ -2,8 +2,7 @@
 layout: default
 title: "Biography"
 ---
-<div style="text-align: center; padding: 50px; background: linear-gradient(135deg, #fbe7a1, #f8c1cc); color: orange;">
-  <img src=“assets/bio_picture.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid white; margin-bottom: 20px;">
+   <img src=“assets/bio_picture.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid white; margin-bottom: 20px;">
 <div style="text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #e3f2fd, #fefefe); color: #1a237e; font-family: 'Segoe UI', 'Roboto', sans-serif;">
   <h1 style="font-size: 3rem; font-weight: bold;">Biography</h1>
   <p style="font-size: 1.2rem; max-width: 850px; margin: 0 auto; line-height: 1.7; color: #37474f;">
