@@ -7,8 +7,7 @@ title: "Biography"
   <h1 style="font-size: 3rem; font-weight: bold;">Biography</h1>
 
   <!-- Profile Picture -->
-  <img src="assets/bio_picture.jpg" alt="An Yu Chen Bio Picture"
-       style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid white; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+  <img src="assets/bio_picture.jpg" alt="An Yu Chen Bio Picture" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid white; margin-bottom: 20px;">
 
   <p style="font-size: 1.2rem; max-width: 850px; margin: 0 auto; line-height: 1.7; color: #37474f;">
     I am a Research Associate at the University of Manchester’s Alliance Manchester Business School. My academic journey is driven by a deep interest in how science and innovation intersect, especially in green technologies and artificial intelligence. I am committed to research that contributes to real-world impact—through rigorous analysis, collaborative projects, and policy engagement.
@@ -22,7 +21,7 @@ title: "Biography"
     My doctoral research at the University of Manchester focused on the dynamic relationship between scientific knowledge and technological innovation, particularly within the field of green technologies. A significant part of my work involved linking green patent data with scientific publication data to explore how knowledge from science contributes to emerging technologies.
   </p>
   <p style="line-height: 1.8;">
-    Across three papers, I analyzed different aspects of this linkage. The first examines how the extent of scientific citations in patents correlates with their generality and future citation impact. The second investigates how various types of knowledge recombination—such as interdisciplinary and atypical scientific combinations—affect technological outcomes. The third brings in a socio-technical lens, examining how gender homophily among inventors influences the selection of scientific publications cited in green patents.
+    Across three papers, I analysed different aspects of this linkage. The first examines how the extent of scientific citations in patents correlates with their generality and future citation impact. The second investigates how various types of knowledge recombination—such as interdisciplinary and atypical scientific combinations—affect technological outcomes. The third brings in a socio-technical lens, examining how gender homophily among inventors influences the selection of scientific publications cited in green patents.
   </p>
   <p style="line-height: 1.8;">
     This work contributes to understanding how research and diversity in scientific practices can shape the future of green technology development.
@@ -30,7 +29,8 @@ title: "Biography"
 
   <h2 style="color: #1a237e; margin-top: 40px;">Current Role: Research Associate</h2>
   <p style="line-height: 1.8;">
-    I currently serve as a Research Associate on the UK Doctoral Graduate Cohort Intelligence (DGCI) project, under the guidance of Professor Cornelia Lawson. Our work involves building a longitudinal database of UK doctoral graduates to explore career trajectories, mobility, and contributions to academia and industry. This role allows me to apply my skills in data architecture, API integration, and policy-focused research design.
+     I worked as a research associate for Prof. Cornelia Lawson and Dr. Xin Deng, where we were building a UK doctoral graduate database. I am interested in exploring how research and science in the UK translate into technological practices and applications (please see: 
+    <a href="https://www.mioir.manchester.ac.uk/research/projects/uk-dgci/" style="color: #3498db;">UK DGCI</a>) Our work involves building a longitudinal database of UK doctoral graduates to explore career trajectories, mobility, and contributions to academia and industry. This role allows me to apply my skills in data architecture, API integration, and policy-focused research design.
   </p>
 
   <h2 style="color: #1a237e; margin-top: 40px;">Programming & Analytical Skills</h2>
