@@ -5,8 +5,7 @@ title: "Biography"
 <div style="text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #e3f2fd, #fefefe); color: #1a237e; font-family: 'Segoe UI', 'Roboto', sans-serif;">
   <h1 style="font-size: 3rem; font-weight: bold;">Biography</h1>
    <p style="font-size: 1.2rem; max-width: 850px; margin: 0 auto; line-height: 1.7; color: #37474f;">
-      <img src="assets/bio_picture.jpg" alt="Me" style="width: 200px; height: 200px; margin-top: 100px;">
-  </p>
+   </p>
 </div>
 
 <div style="max-width: 900px; margin: 40px auto; font-family: 'Segoe UI', 'Roboto', sans-serif; color: #37474f; padding: 0 20px;">
