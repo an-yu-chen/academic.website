@@ -105,53 +105,70 @@ title: "Home"
     transform: translateY(-2px);
   }
 
-  .social-links {
-    margin-top: 30px;
-  }
-
-  .social-links a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: var(--text-color);
-  }
-
-  .social-icon {
-    width: 45px;
-    height: 45px;
-    vertical-align: middle;
-    transition: transform 0.2s ease;
-  }
-
-  .social-icon:hover {
-    transform: scale(1.1);
-  }
-
-  .highlights-list {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    max-width: 800px;
+  .experience-item {
+    max-width: 900px;
+    margin: 0 auto 30px;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
     text-align: left;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
   }
 
-  .highlights-list li {
-    background-color: white;
-    margin-bottom: 15px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    transition: box-shadow 0.3s ease;
-  }
-
-  .highlights-list li:hover {
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-  }
-
-  .highlights-list strong {
-    display: block;
-    font-size: 1.15rem;
-    margin-bottom: 5px;
+  .experience-item h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
     color: var(--secondary-color);
+  }
+
+  .experience-item h4 {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+  }
+
+  .experience-item ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style: none;
+  }
+
+  .experience-item li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+
+  .experience-item li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+
+  /* LinkedIn-specific styles to honor your request */
+  .connect-section {
+    padding: 40px 20px;
+    text-align: center;
+    background: var(--background-accent);
+  }
+
+  .connect-section h2 {
+    margin-top: 0;
+  }
+
+  .linkedin-icon-container {
+    margin-top: 20px;
+  }
+
+  .linkedin-icon-container img {
+    width: 250px; /* Reduced size for better visual balance */
+    height: auto;
+    max-width: 100%;
+    margin-top: 50px;
   }
 </style>
 
@@ -168,20 +185,20 @@ title: "Home"
 </div>
 
 <div class="section section-primary">
-  <h2>Research Interests</h2>
-  <p class="large">
-    My research explores the relationship between science and technology, with a particular focus on the scientific foundations of green technologies. My goal is to understand knowledge flows across scientific fields and contribute to important policy discussions in science, technology, and innovation.
-  </p>
+  <h2>Research Experience</h2>
+  <div class="experience-item">
+    <h3>Research Associate, MIOIR & AMBS</h3>
+    <h4>The University of Manchester | Apr 2025-Present</h4>
+    <ul>
+      <li>Worked on an EPO funded project with bibliometric metadata and large-scale PhD thesis datasets.</li>
+      <li>Utilised virtualised Linux environments on server to efficiently download and process terabytes of big data.</li>
+      <li>Constructed complex datasets, linking PhD thesis data to publication data using data from Scopus and OpenAlex.</li>
+      <li>Contributed to drafting detailed methodological reports and analysis strategies.</li>
+    </ul>
+  </div>
 </div>
 
 <div class="section section-accent">
-  <h2>About Me</h2>
-  <p class="large">
-    I am a curious and enthusiastic thinker who thrives on connecting with people and exploring fresh perspectives. I bring energy and creativity to my work and collaborations, and I'm always eager to learn and grow.
-  </p>
-</div>
-
-<div class="section section-primary">
   <h2>Highlights of My Journey</h2>
   <ul class="highlights-list">
     <li>
@@ -203,14 +220,25 @@ title: "Home"
   </ul>
 </div>
 
+<div class="section section-primary">
+  <h2>Research Interests</h2>
+  <p class="large">
+    My research explores the relationship between science and technology, with a particular focus on the scientific foundations of green technologies. My goal is to understand knowledge flows across scientific fields and contribute to important policy discussions in science, technology, and innovation.
+  </p>
+</div>
+
 <div class="section section-accent">
+  <h2>About Me</h2>
+  <p class="large">
+    I am a curious and enthusiastic thinker who thrives on connecting with people and exploring fresh perspectives. I bring energy and creativity to my work and collaborations, and I'm always eager to learn and grow.
+  </p>
+</div>
+
+<div class="connect-section">
   <h2>Connect with Me</h2>
-  <div class="social-links">
+  <div class="linkedin-icon-container">
     <a href="https://www.linkedin.com/in/an-yu-chen-130146342/" target="_blank">
-      <img src="assets/linkedin-icon.svg" alt="LinkedIn" class="social-icon">
-    </a>
-    <a href="mailto:anyu.chen@manchester.ac.uk" target="_blank">
-      <img src="assets/email-icon.svg" alt="Email" class="social-icon">
+      <img src="assets/linkedin.png" alt="LinkedIn">
     </a>
   </div>
 </div>
