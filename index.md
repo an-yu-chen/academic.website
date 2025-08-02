@@ -205,7 +205,7 @@ title: "Home"
   <h1>An Yu Chen</h1>
   <p class="subtitle">Doctoral Researcher | Research Associate</p>
   <p class="intro-text">
-    Hello and welcome to my academic website! I'm a Doctoral Researcher and Research Associate at the <a href="https://www.manchester.ac.uk/research/institutes-centres/innovation-research-institute/" style="color: var(--link-color); text-decoration: none;">Manchester Institute of Innovation Research</a>, based in the Alliance Manchester Business School at The University of Manchester. My work focuses on the intricate linkages between science and technology, specifically how scientific knowledge contributes to the development of green technologies. Through rigorous analysis and policy engagement, I aim to create real-world impact.
+    Hello and welcome to my academic website! I'm a Doctoral Researcher and Research Associate at the <a href="https://www.mioir.manchester.ac.uk" style="color: var(--link-color); text-decoration: none;">Manchester Institute of Innovation Research</a>, based in the Alliance Manchester Business School at The University of Manchester. My work focuses on the intricate linkages between science and technology, specifically how scientific knowledge contributes to the development of green technologies. Through rigorous analysis and policy engagement, I aim to create real-world impact.
   </p>
   <a href="assets/anyu.pdf" target="_blank" class="cv-button">
     View My CV
