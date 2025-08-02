@@ -193,7 +193,7 @@ title: "Home"
   }
 
   .linkedin-icon-container img {
-    width: 250px;
+    width: 350px;
     height: auto;
     max-width: 100%;
     margin-top: 50px;
