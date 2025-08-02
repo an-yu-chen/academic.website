@@ -1,10 +1,3 @@
-Excellent\! Let's refine the "Highlights of My Journey" section to be a more concise and powerful summary of your academic timeline. It's smart to have a dedicated section for this, separate from your detailed project work, as it gives visitors a quick overview of your credentials.
-
-Here is the updated HTML code. I have kept the structure exactly as you requested, ensuring it remains clean and organized. I will integrate this block into the complete, redesigned homepage from our last interaction.
-
-### **Revised HTML**
-
-```html
 ---
 layout: default
 title: "Home"
@@ -220,7 +213,7 @@ title: "Home"
 </div>
 
 <div class="section section-primary">
-  <h2>Highlights of Research Experience</h2>
+  <h2>Research Experience</h2>
   <div class="experience-item">
     <h3>Research Associate, MIOIR & AMBS</h3>
     <h4>The University of Manchester | Apr 2025-Present</h4>
@@ -277,4 +270,3 @@ title: "Home"
     </a>
   </div>
 </div>
-```
