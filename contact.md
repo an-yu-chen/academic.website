@@ -37,8 +37,8 @@ title: "Contact"
   <p style="font-size: 1.2rem;">
     <i class="fas fa-envelope" style="color: #0984e3;"></i> 
     <strong>Email:</strong> 
-    <a href="mailto:anyu.chen@postgrad.manchester.ac.uk" style="color: #0984e3;">
-      anyu.chen@postgrad.manchester.ac.uk
+    <a href="mailto:anyu.chen@manchester.ac.uk" style="color: #0984e3;">
+      anyu.chen@manchester.ac.uk
     </a>
   </p>
 </div>
