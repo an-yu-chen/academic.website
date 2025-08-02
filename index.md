@@ -1,3 +1,10 @@
+Excellent\! Let's refine the "Highlights of My Journey" section to be a more concise and powerful summary of your academic timeline. It's smart to have a dedicated section for this, separate from your detailed project work, as it gives visitors a quick overview of your credentials.
+
+Here is the updated HTML code. I have kept the structure exactly as you requested, ensuring it remains clean and organized. I will integrate this block into the complete, redesigned homepage from our last interaction.
+
+### **Revised HTML**
+
+```html
 ---
 layout: default
 title: "Home"
@@ -149,6 +156,34 @@ title: "Home"
     line-height: 1;
   }
 
+  .highlights-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+  }
+
+  .highlights-list li {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .highlights-list li:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .highlights-list strong {
+    display: block;
+    font-size: 1.15rem;
+    margin-bottom: 5px;
+    color: var(--secondary-color);
+  }
+
   /* LinkedIn-specific styles to honor your request */
   .connect-section {
     padding: 40px 20px;
@@ -165,7 +200,7 @@ title: "Home"
   }
 
   .linkedin-icon-container img {
-    width: 250px; /* Reduced size for better visual balance */
+    width: 250px;
     height: auto;
     max-width: 100%;
     margin-top: 50px;
@@ -185,7 +220,7 @@ title: "Home"
 </div>
 
 <div class="section section-primary">
-  <h2>Research Experience</h2>
+  <h2>Highlights of Research Experience</h2>
   <div class="experience-item">
     <h3>Research Associate, MIOIR & AMBS</h3>
     <h4>The University of Manchester | Apr 2025-Present</h4>
@@ -242,3 +277,4 @@ title: "Home"
     </a>
   </div>
 </div>
+```
