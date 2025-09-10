@@ -21,7 +21,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Biography", file: "blog.md"}
   - {title: "Working Paper", file: "paper.md"}
   - {title: "Contact", file: "contact.md"}
-  - {title: "Personal Journal", file: "tan.md"}
+  - {title: "Personal Journey", file: "tan.md"}
 
 
   
