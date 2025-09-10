@@ -1,35 +1,86 @@
----
-layout: default
-title: "Personal Journey"
----
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f0e8; /* A warm, creamy background */
+    color: #333;
+}
 
-# My Life-Changing Journey in Tanzania
+.journey-header {
+    background-color: #e0ac8f; /* A soft, earthy terracotta colour */
+    color: #fff;
+    text-align: center;
+    padding: 2.5rem 0;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
-![My Journey](assets/tan.jpg)
+.journey-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+}
 
-Traveling to Tanzania was not just a trip — it was a turning point in my life.  
-I arrived curious, with open eyes and an open heart, but I had no idea how deeply the experience would shape me.
+.journey-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
 
-Among the landscapes, the people, and the culture, I discovered more than beauty — I discovered strength.  
-Challenges that once seemed overwhelming began to feel like stepping stones. I learned that resilience is not about never falling, but about rising every time with greater courage.
+section {
+    margin-bottom: 2.5rem;
+}
 
-In Tanzania, I also found purpose. I saw how acts of kindness — even the smallest gestures — could ripple outward and make a difference. Whether it was sharing food, lending a hand, or simply smiling, kindness became not just an action, but a way of life.
+.journey-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* A subtle curve on the corners */
+    margin: 1.5rem auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 3px solid #e0ac8f; /* A complementary border colour */
+}
 
-This journey reminded me that we are all connected. Living with intention and compassion gives meaning to every step we take. Tanzania taught me that being kind is not optional — it is essential.
+p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
 
----
- 
-While there, I was involved in helping with computer teaching, setting up computer classrooms, and engaging in cultural exchange.  
-This trip changed my life entirely — it taught me to see the light, to always appreciate, and to be willing to help as much as I can.  
+hr {
+    border: none;
+    height: 1px;
+    background-color: #e0ac8f;
+    margin: 3rem 0;
+}
 
-There were so many moments of laughter, singing, and heartwarming connection. God reminded me again and again to be gentle and live in the moment, and I am deeply grateful for that.  
+.journey-footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #5d493a; /* A darker brown for contrast */
+    color: #fff;
+    margin-top: 3rem;
+}
 
----
+.journey-footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
 
- 
+@media (min-width: 768px) {
+    .intro-section, .learning-section {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
 
-I also had the chance to learn Kiswahili and experience the highs and lows of moving to another country. It was not always easy, but this experience made me independent and showed me how to connect with others across the globe.  
+    .intro-section .journey-image {
+        order: 1;
+        width: 50%;
+    }
 
-The joy of knowing that life, with all its unknowns, always finds its way gave me peace. I discovered that friendships can bloom anywhere, and that wherever I may be, or whatever I end up doing, I can choose to live gently and kindly.  
-
-This journey is etched in my heart forever — a reminder that kindness, gratitude, and purpose can carry us through every chapter of life.
+    .learning-section .journey-image {
+        order: 2;
+        width: 50%;
+    }
+}
