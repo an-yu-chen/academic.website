@@ -5,7 +5,7 @@ title: "Personal Journey"
 
 # My Life-Changing Journey in Tanzania
 
-In Tanzania, this journey reminded me that we are all connected. Having purity in heart and positive attitudes made a significant difference. I've learned a lot through the people I met here, and whilst being a volunteer I was getting a lot of help from local people. Their kindness changed my heart.
+In 2014 summer, Tanzania, this journey reminded me that we are all connected. Having purity in heart and positive attitudes made a significant difference. I've learned a lot through the people I met here, and whilst being a volunteer I was getting a lot of help from local people. Their kindness changed my heart.
 
 Whilst there, I was involved in helping with computer teaching, setting up computer classrooms, and engaging in cultural exchange.  
 This trip changed my life entirely — it taught me to see the light, to always appreciate, and to be willing to help as much as I can.  
