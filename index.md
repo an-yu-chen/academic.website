@@ -45,8 +45,8 @@ title: "Home"
   }
 
   .profile-pic {
-    width: 300px;                 /* bigger circle */
-    height: 300px;                /* maintain square */             /* responsive */
+    width: 250px;                 /* bigger circle */
+    height: 250px;                /* maintain square */             /* responsive */
     border-radius: 50%;
     border: 4px solid white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
