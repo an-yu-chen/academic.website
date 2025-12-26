@@ -11,88 +11,104 @@ title: "Biography"
   margin: 2rem auto;
   padding: 0 2rem;
   font-family: 'Lora', serif;
-  color: #6e4e2b;
-  line-height: 1.75;
-  background-color: #f5f1e3;
+  color: #5b4332; /* slightly darker for contrast */
+  line-height: 1.8;
+  background-color: #fcf8f1; /* softer cream background */
 }
 
 /* Bio Header */
 .bio-header {
-  background: linear-gradient(135deg, #f5f1e3, #d9c7b3);
+  background: linear-gradient(145deg, #fcf8f1, #e7d9c8);
   padding: 3rem 2rem;
-  border-radius: 18px;
+  border-radius: 20px;
   text-align: center;
   margin-bottom: 3rem;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.bio-header:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 
 .bio-header h1 {
   font-family: 'Merriweather', serif;
-  font-size: 2.8rem;
+  font-size: 3rem;
   color: #6e4e2b;
   margin-bottom: 0.5rem;
+  letter-spacing: 1px;
 }
 
 .bio-header p {
-  font-size: 1.3rem;
-  color: #8e7b5c;
+  font-size: 1.35rem;
+  color: #8e7158;
   max-width: 700px;
   margin: 0 auto;
+  line-height: 1.6;
+  font-style: italic;
 }
 
 /* Bio Sections */
 .bio-section {
-  background: #ffffff;
-  border-radius: 18px;
-  padding: 2.5rem;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+  background: #fffaf3; /* subtle cream tone */
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
   margin-bottom: 3rem;
+  transition: transform 0.3s ease;
+}
+.bio-section:hover {
+  transform: translateY(-2px);
 }
 
 .bio-section h2 {
   font-family: 'Merriweather', serif;
-  font-size: 2rem;
-  color: #6e4e2b;
-  margin-bottom: 1.2rem;
+  font-size: 2.2rem;
+  color: #7a543c;
+  margin-bottom: 1.5rem;
   font-weight: 700;
+  border-bottom: 2px solid #e7d9c8;
+  padding-bottom: 0.5rem;
 }
 
 .bio-section p {
-  font-size: 1.15rem;
-  margin-bottom: 1.6rem;
-  color: #5f4d38;
+  font-size: 1.17rem;
+  margin-bottom: 1.8rem;
+  color: #5f4b36;
 }
 
 /* Pull Quote Style */
 .pull-quote {
   font-family: 'Merriweather', serif;
   font-style: italic;
-  font-size: 1.3rem;
-  color: #8e7b5c;
-  border-left: 6px solid #d9c7b3;
+  font-size: 1.35rem;
+  color: #a18365;
+  border-left: 6px solid #e7d9c8;
   padding-left: 1.5rem;
-  margin: 2rem 0;
+  margin: 2.5rem 0;
   max-width: 800px;
   text-align: center;
   position: relative;
+  background-color: #fff5eb;
+  border-radius: 10px;
 }
 
 .pull-quote::before {
   content: "“";
-  font-size: 4rem;
+  font-size: 4.5rem;
   position: absolute;
-  left: -0.5rem;
-  top: -1rem;
-  color: #f4e1c7;
+  left: -0.6rem;
+  top: -1.2rem;
+  color: #f8eadb;
 }
 
 .pull-quote::after {
   content: "”";
-  font-size: 4rem;
+  font-size: 4.5rem;
   position: absolute;
-  right: -0.5rem;
-  bottom: -1rem;
-  color: #f4e1c7;
+  right: -0.6rem;
+  bottom: -1.2rem;
+  color: #f8eadb;
 }
 
 /* Image Styling */
@@ -103,18 +119,24 @@ title: "Biography"
 
 .image-frame img {
   max-width: 100%;
-  border-radius: 18px;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.image-frame img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .image-caption {
   font-size: 1rem;
-  color: #8e7b5c;
-  margin-top: 0.6rem;
+  color: #a18365;
+  margin-top: 0.8rem;
   font-style: italic;
   text-align: center;
 }
 </style>
+
 
 <div class="bio-container">
 
