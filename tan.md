@@ -4,40 +4,28 @@ title: "Personal Journey"
 ---
 
 <style>
-/* ---------- Page-wide styling ---------- */
 .journey-wrapper {
   max-width: 900px;
   margin: 3rem auto;
   padding: 0 1.5rem;
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: "Georgia", serif;
   color: #2f2f2f;
   line-height: 1.8;
 }
 
-/* ---------- Hero section ---------- */
 .journey-hero {
   background: linear-gradient(135deg, #f6e6c9, #f2c48d);
   padding: 3.5rem 2rem;
   border-radius: 16px;
   text-align: center;
   margin-bottom: 3rem;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
 .journey-hero h1 {
   font-size: 2.6rem;
-  margin-bottom: 1rem;
   color: #4a2e13;
 }
 
-.journey-hero p {
-  font-size: 1.2rem;
-  max-width: 700px;
-  margin: 0 auto;
-  color: #5c3a1e;
-}
-
-/* ---------- Story card ---------- */
 .story-card {
   background: #ffffff;
   border-radius: 14px;
@@ -46,7 +34,6 @@ title: "Personal Journey"
   box-shadow: 0 12px 28px rgba(0,0,0,0.06);
 }
 
-/* ---------- Pull quote ---------- */
 .pull-quote {
   font-style: italic;
   font-size: 1.2rem;
@@ -56,7 +43,6 @@ title: "Personal Journey"
   margin: 2.5rem 0;
 }
 
-/* ---------- Image gallery ---------- */
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -67,36 +53,20 @@ title: "Personal Journey"
 .image-frame {
   background: #fff;
   border-radius: 14px;
-  overflow: hidden;
+  padding: 1rem;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
 .image-frame img {
   width: 100%;
-  height: auto;
-  display: block;
+  border-radius: 10px;
 }
 
 .image-caption {
-  padding: 1rem;
+  text-align: center;
   font-size: 0.95rem;
+  margin-top: 0.8rem;
   color: #555;
-  text-align: center;
-  background: #faf6f0;
-}
-
-/* ---------- Closing reflection ---------- */
-.closing-reflection {
-  background: #faf6f0;
-  padding: 2.5rem;
-  border-radius: 14px;
-  margin-top: 3rem;
-  text-align: center;
-}
-
-.closing-reflection p {
-  font-size: 1.1rem;
-  color: #4a2e13;
 }
 </style>
 
@@ -105,8 +75,8 @@ title: "Personal Journey"
   <div class="journey-hero">
     <h1>My Life-Changing Journey in Tanzania</h1>
     <p>
-      A summer that reminded me we are all connected — and that kindness,
-      humility, and openness can quietly transform a life.
+      A summer that reminded me we are all connected — through kindness,
+      humility, and shared humanity.
     </p>
   </div>
 
@@ -115,67 +85,37 @@ title: "Personal Journey"
       In the summer of 2014, I travelled to Tanzania. This journey reminded me
       that we are all connected. Having purity in heart and a positive attitude
       made a significant difference. I learned deeply from the people I met,
-      and whilst volunteering, I found myself receiving just as much support
-      and care from local communities.
-    </p>
-
-    <p>
-      Their kindness changed my heart.
-    </p>
-
-    <p>
-      During my time there, I was involved in teaching basic computer skills,
-      helping to set up computer classrooms, and engaging in meaningful cultural
-      exchange. These moments — often simple, sometimes challenging — reshaped
-      my understanding of what it means to give, learn, and belong.
+      and whilst volunteering, I received just as much support as I gave.
     </p>
 
     <div class="pull-quote">
-      “This trip changed my life entirely — it taught me to see the light, to
-      always appreciate, and to be willing to help as much as I can.”
+      “This trip changed my life entirely — it taught me to see the light,
+      to appreciate, and to help whenever I can.”
     </div>
 
     <p>
-      There were countless moments of laughter, singing, and heartfelt
-      connection. Again and again, I was reminded to be gentle, to live fully in
-      the moment, and to be grateful. I remain deeply thankful for every person
-      I met on this journey.
-    </p>
-
-    <p>
-      I also had the opportunity to learn Kiswahili and experience what it truly
-      feels like to move to another country. It was not always easy, but the
-      experience made me independent and taught me how to build a life in a
-      place that was entirely new.
-    </p>
-
-    <p>
-      The joy of knowing that life — with all its uncertainty — always finds a
-      way gave me a deep sense of peace.
+      I was involved in teaching computer skills, setting up computer classrooms,
+      and engaging in cultural exchange. I also learned Kiswahili and experienced
+      what it means to build a life in a completely new environment.
     </p>
   </div>
 
   <div class="image-grid">
+
     <div class="image-frame">
-      <img src="assets/han.jpg" alt="Computer Teaching in Tanzania">
+      ![Computer Teaching](assets/han.jpg)
       <div class="image-caption">
         Teaching computer skills and building classrooms together
       </div>
     </div>
 
     <div class="image-frame">
-      <img src="assets/tan.jpg" alt="My Journey in Tanzania">
+      ![My Journey](assets/tan.jpg)
       <div class="image-caption">
         Moments from a journey that shaped who I am today
       </div>
     </div>
-  </div>
 
-  <div class="closing-reflection">
-    <p>
-      This experience continues to guide how I approach life, learning, and
-      service — with openness, humility, and gratitude.
-    </p>
   </div>
 
 </div>
