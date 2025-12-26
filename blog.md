@@ -11,37 +11,32 @@ title: "Biography"
   margin: 2rem auto;
   padding: 0 2rem;
   font-family: 'Lora', serif;
-  color: #5b4332; /* slightly darker for contrast */
+  color: #333; /* dark grey for readability */
   line-height: 1.8;
-  background-color: #fcf8f1; /* softer cream background */
+  background-color: #fcf8f1; /* light cream page background */
 }
 
 /* Bio Header */
 .bio-header {
-  background: linear-gradient(145deg, #fcf8f1, #e7d9c8);
+  background: linear-gradient(145deg, #fff8f0, #ffeedd);
   padding: 3rem 2rem;
   border-radius: 20px;
   text-align: center;
   margin-bottom: 3rem;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.bio-header:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 
 .bio-header h1 {
   font-family: 'Merriweather', serif;
   font-size: 3rem;
-  color: #6e4e2b;
+  color: #e07a5f; /* warm coral */
   margin-bottom: 0.5rem;
   letter-spacing: 1px;
 }
 
 .bio-header p {
   font-size: 1.35rem;
-  color: #8e7158;
+  color: #6a7f9f; /* soft blue-gray */
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.6;
@@ -50,7 +45,7 @@ title: "Biography"
 
 /* Bio Sections */
 .bio-section {
-  background: #fffaf3; /* subtle cream tone */
+  background: #ffffff; /* white for text areas */
   border-radius: 20px;
   padding: 3rem;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
@@ -64,17 +59,17 @@ title: "Biography"
 .bio-section h2 {
   font-family: 'Merriweather', serif;
   font-size: 2.2rem;
-  color: #7a543c;
+  color: #2a9d8f; /* teal accent */
   margin-bottom: 1.5rem;
   font-weight: 700;
-  border-bottom: 2px solid #e7d9c8;
+  border-bottom: 2px solid #ffeedd;
   padding-bottom: 0.5rem;
 }
 
 .bio-section p {
   font-size: 1.17rem;
   margin-bottom: 1.8rem;
-  color: #5f4b36;
+  color: #333; /* main text dark grey */
 }
 
 /* Pull Quote Style */
@@ -82,14 +77,14 @@ title: "Biography"
   font-family: 'Merriweather', serif;
   font-style: italic;
   font-size: 1.35rem;
-  color: #a18365;
-  border-left: 6px solid #e7d9c8;
+  color: #f4a261; /* orange accent */
+  border-left: 6px solid #e9c46a; /* yellow accent */
   padding-left: 1.5rem;
   margin: 2.5rem 0;
   max-width: 800px;
   text-align: center;
   position: relative;
-  background-color: #fff5eb;
+  background-color: #fffefb;
   border-radius: 10px;
 }
 
@@ -99,7 +94,7 @@ title: "Biography"
   position: absolute;
   left: -0.6rem;
   top: -1.2rem;
-  color: #f8eadb;
+  color: #ffe8c2;
 }
 
 .pull-quote::after {
@@ -108,7 +103,7 @@ title: "Biography"
   position: absolute;
   right: -0.6rem;
   bottom: -1.2rem;
-  color: #f8eadb;
+  color: #ffe8c2;
 }
 
 /* Image Styling */
@@ -130,12 +125,23 @@ title: "Biography"
 
 .image-caption {
   font-size: 1rem;
-  color: #a18365;
+  color: #9a8c98; /* soft purple-gray */
   margin-top: 0.8rem;
   font-style: italic;
   text-align: center;
 }
+
+/* Links (optional accent) */
+a {
+  color: #e07a5f;
+  text-decoration: underline;
+}
+a:hover {
+  color: #2a9d8f;
+  text-decoration: none;
+}
 </style>
+
 
 
 <div class="bio-container">
