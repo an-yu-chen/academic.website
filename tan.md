@@ -85,15 +85,7 @@ I was involved in teaching computer skills, setting up computer classrooms, and 
 
 
 ![Computer Teaching](assets/han.jpg)
- 
-
-<div class="image-caption">Teaching computer skills and building classrooms together</div>
-
 ![My Journey](assets/tan.jpg)
-
-
-<div class="image-caption">Moments from a journey that shaped who I am today</div>
-
-</div>
+---
 
 
