@@ -5,10 +5,10 @@ title: "Contact"
 
 <style>
   :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #f39c12;
-    --background-color: #ecf0f1;
-    --accent-color: #ecf0f1;
+    --primary-color: #5e4b3c;
+    --secondary-color: #b69f82;
+    --background-color: #f9f3e4;
+    --accent-color: #d4af7f;
   }
 
   body {
@@ -73,7 +73,7 @@ title: "Contact"
   }
 
   .academic-link:hover {
-    background-color: #d35400;
+    background-color: #c8a25a;
     transform: translateY(-2px);
   }
 
