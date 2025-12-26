@@ -46,14 +46,12 @@ title: "Home"
 
   .profile-pic {
     width: 300px;                 /* bigger circle */
-    height: 300px;                /* maintain square */
-    max-width: 100%;              /* responsive */
+    height: 300px;                /* maintain square */             /* responsive */
     border-radius: 50%;
     border: 4px solid white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 25px;
     object-fit: cover;            /* fill circle without stretching */
-    object-position: center top;  /* keep your face positioned like before */
   }
 
 
