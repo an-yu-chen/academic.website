@@ -1,136 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Personal Journey</title>
+---
+layout: default
+title: "Personal Journey"
+---
+
 <style>
-    /* ----- Global Styles ----- */
-    body {
-        font-family: 'Georgia', serif;
-        background: #f5f5f5;
-        color: #333;
-        margin: 0;
-        padding: 0;
-        line-height: 1.75;
-    }
+.journey-container {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
 
-    a {
-        color: #1a73e8;
-        text-decoration: none;
-    }
+.journey-header {
+  background: linear-gradient(135deg, #ffbc00, #ff8c00);
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 3rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
 
-    a:hover {
-        text-decoration: underline;
-    }
+.journey-header h1 {
+  font-size: 2.8rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-family: 'Playfair Display', serif;
+}
 
-    /* ----- Container ----- */
-    .container {
-        max-width: 850px;
-        margin: 50px auto;
-        padding: 30px 25px;
-        background: #fff;
-        border-radius: 12px;
-        box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-    }
+.journey-header p {
+  font-size: 1.2rem;
+  color: #f5f5f5;
+  font-weight: 400;
+}
 
-    /* ----- Headings ----- */
-    h1, h2 {
-        text-align: center;
-        margin-bottom: 20px;
-    }
+.journey-section {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 2.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 3rem;
+}
 
-    h1 {
-        font-size: 2.8rem;
-        font-weight: normal;
-        color: #222;
-    }
+.journey-section h2 {
+  font-size: 2rem;
+  color: #ff8c00;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
 
-    h2 {
-        font-size: 2rem;
-        font-weight: normal;
-        margin-top: 40px;
-        color: #444;
-    }
+.journey-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
 
-    /* ----- Paragraphs ----- */
-    p {
-        font-size: 1.15rem;
-        margin-bottom: 1.5rem;
-    }
+.quote {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #d35400;
+  border-left: 4px solid #ff8c00;
+  padding-left: 1rem;
+  margin: 2rem 0;
+}
 
-    /* ----- Highlighted Text ----- */
-    .highlight {
-        background-color: #e2e2e2;
-        padding: 3px 8px;
-        border-radius: 5px;
-        font-weight: bold;
-    }
+.image-frame {
+  margin: 3rem 0;
+  text-align: center;
+}
 
-    /* ----- Images ----- */
-    img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        margin: 25px auto;
-        border-radius: 10px;
-        box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-        transition: transform 0.3s ease;
-    }
+.image-frame img {
+  max-width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
 
-    img:hover {
-        transform: scale(1.03);
-    }
-
-    /* ----- Divider ----- */
-    hr {
-        border: none;
-        height: 2px;
-        background: #ccc;
-        margin: 40px 0;
-        border-radius: 2px;
-    }
-
-    /* ----- Responsive ----- */
-    @media (max-width: 600px) {
-        .container {
-            padding: 20px 15px;
-        }
-
-        h1 {
-            font-size: 2rem;
-        }
-
-        h2 {
-            font-size: 1.5rem;
-        }
-
-        p {
-            font-size: 1rem;
-        }
-    }
+.image-caption {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 0.5rem;
+  text-align: center;
+}
 </style>
-</head>
-<body>
 
-<div class="container">
-    <h1>Personal Journey</h1>
+<div class="journey-container">
+  <div class="journey-header">
+    <h1>My Life-Changing Journey in Tanzania</h1>
+    <p>Discovering connections, kindness, and life lessons in the heart of Africa.</p>
+  </div>
 
-    <p>In <span class="highlight">2014 summer, Tanzania</span>, this journey reminded me that we are all connected. Having purity in heart and positive attitudes made a significant difference. I've learned a lot through the people I met here, and whilst being a volunteer I was getting a lot of help from local people. Their kindness changed my heart.</p>
+  <div class="journey-section">
+    <h2>A Transformative Experience</h2>
+    <p>In 2014, during the summer, I had the opportunity to volunteer in Tanzania. This journey reminded me that we are all connected and that even the smallest act of kindness can make a significant difference. The people I met during my stay changed my life and made me appreciate the importance of community and empathy.</p>
+    <p>As a volunteer, I helped with teaching computer skills and setting up computer classrooms. What I didn’t expect was how much I would learn from the local community. Their generosity, humility, and positive attitudes were truly inspiring. I left Tanzania with a deeper understanding of how important it is to give and be open to learning from others.</p>
+    <p class="quote">"The kindness of strangers has the power to change your heart forever."</p>
+  </div>
 
-    <p>Whilst there, I was involved in helping with computer teaching, setting up computer classrooms, and engaging in cultural exchange.<br>
-    This trip changed my life entirely — it taught me to see the light, to always appreciate, and to be willing to help as much as I can.</p>
+  <div class="journey-section">
+    <h2>Lessons I Learned</h2>
+    <p>This trip taught me how to live in the moment, appreciate what I have, and be grateful for every experience. The joy I felt every time I saw people smiling, despite the challenges they faced, reminded me that life’s true beauty comes from the connections we make with others.</p>
+    <p>By the end of my time there, I felt like I had truly become part of something bigger than myself. I was reminded to be gentle with others and with myself and to always appreciate the goodness that exists around me.</p>
+  </div>
 
-    <p>There were so many moments of laughter, singing, and heartwarming connection. God reminded me again and again to be gentle and live in the moment, and I am deeply grateful for that. I am very thankful for everyone I met here.</p>
+  <div class="image-frame">
+    <img src="{{ site.baseurl }}/assets/han.jpg" alt="Computer Teaching">
+    <p class="image-caption">Teaching computer skills to local students in Tanzania.</p>
+  </div>
 
-    <hr>
-
-    <h2>My Life-Changing Journey in Tanzania</h2>
-    <p>This experience made me independent and showed me the ways of building my life in a place that was completely new to me. The joy of knowing that life, with all its unknowns, always finds its way gave me peace.</p>
-
-    <img src="assets/han.jpg" alt="Computer Teaching">
-    <img src="assets/tan.jpg" alt="My Journey">
+  <div class="image-frame">
+    <img src="{{ site.baseurl }}/assets/tan.jpg" alt="My Journey in Tanzania">
+    <p class="image-caption">A moment captured during my journey in Tanzania.</p>
+  </div>
 </div>
-
-</body>
-</html>
+------
