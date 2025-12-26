@@ -9,8 +9,8 @@ title: "Personal Journey"
   margin: 3rem auto;
   padding: 0 1.5rem;
   font-family: "Georgia", serif;
-  line-height: 1.8;
   color: #2f2f2f;
+  line-height: 1.8;
 }
 
 .journey-hero {
@@ -43,24 +43,21 @@ title: "Personal Journey"
   margin: 2.5rem 0;
 }
 
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
-  margin-top: 3rem;
+.image-frame {
+  margin: 2.5rem 0;
+  text-align: center;
 }
 
-.image-grid img {
-  width: 100%;
+.image-frame img {
+  max-width: 100%;
   border-radius: 14px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
 .image-caption {
-  text-align: center;
   font-size: 0.95rem;
-  margin-top: 0.5rem;
   color: #555;
+  margin-top: 0.5rem;
 }
 </style>
 
@@ -72,29 +69,25 @@ title: "Personal Journey"
 </div>
 
 <div class="story-card">
-
+<p>
 In the summer of 2014, I travelled to Tanzania. This journey reminded me that we are all connected. Having purity in heart and a positive attitude made a significant difference. I learned deeply from the people I met, and whilst volunteering, I received just as much support as I gave.
+</p>
 
 <div class="pull-quote">
 This trip changed my life entirely — it taught me to see the light, to appreciate, and to help whenever I can.
 </div>
 
+<p>
 I was involved in teaching computer skills, setting up computer classrooms, and engaging in cultural exchange. I also learned Kiswahili and experienced what it means to build a life in a completely new environment.
-
+</p>
 </div>
 
-<div class="image-grid">
-
 ![Computer Teaching](assets/han.jpg)
-{: .image }
-
 <div class="image-caption">Teaching computer skills and building classrooms together</div>
+</div>
 
 ![My Journey](assets/tan.jpg)
-{: .image }
-
 <div class="image-caption">Moments from a journey that shaped who I am today</div>
-
 </div>
 
 </div>
