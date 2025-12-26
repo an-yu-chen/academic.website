@@ -44,9 +44,10 @@ title: "Home"
     text-align: center;
   }
 
-  .profile-pic {
-    width: 180px;
-    height: 180px;
+   .profile-pic {
+    width: 300px;                 /* increase size */
+    height: 300px;                /* maintain square */
+    max-width: 100%;              /* responsive on smaller screens */
     border-radius: 50%;
     border: 4px solid white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
