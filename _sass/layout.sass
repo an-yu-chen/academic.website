@@ -1,71 +1,25 @@
-/* --- Base Layout --- */
-body {
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff; /* page background white */
-  color: #000000; /* default text black */
-  font-family: 'PT Sans', sans-serif;
-  margin: 0;
-}
+/* --- Header / Navigation Bar --- */
+header
+  background-color: #f7f9fb      // light background
+  color: #2c3e50                  // dark text
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 1em 2em
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1)
 
-article {
-  flex-grow: 1;
-}
+nav
+  display: flex
+  gap: 1.5em
+  background-color: transparent
 
-body > header,
-body > footer {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
+nav a
+  color: #2c3e50
+  text-decoration: none
+  font-weight: 500
+  transition: color 0.3s ease, background-color 0.3s ease
 
-body > header,
-body > article,
-body > footer {
-  padding: 1.5em;
-}
-
-article header {
-  margin-bottom: 1.5em;
-}
-
-article header h1 {
-  font-size: 1.7em;
-  margin: 0 0 0.1em;
-}
-
-/* --- Navigation Bar --- */
-nav {
-  margin: 0.5em -1.2em;
-  background-color: #ffffff !important; /* white nav background */
-  padding: 0.5em 1.2em;
-  border-bottom: 1px solid #ddd; /* subtle border */
-}
-
-nav a {
-  margin: 0.5em 1.2em;
-  color: #000000 !important; /* black text */
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease, background-color 0.3s ease;
-}
-
-nav a:hover {
-  color: #ffffff !important;
-  background-color: #000000 !important; /* invert colors on hover */
-  padding: 0.2em 0.5em;
-  border-radius: 4px;
-}
-
-/* --- Optional: header/footer links --- */
-body > header a,
-body > footer a {
-  color: #000000;
-  text-decoration: none;
-}
-
-body > header a:hover,
-body > footer a:hover {
-  text-decoration: underline;
-}
+nav a:hover
+  color: #f39c12                  // highlight color on hover
+  background-color: transparent
+  border-radius: 4px
