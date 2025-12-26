@@ -125,4 +125,5 @@ title: "Biography"
 <p>I aim to continue laying a pivotal role in interdisciplinary research that bridges science, data, and technology. More precisely, my long-term aim is to contribute to high-impact, interdisciplinary research that informs innovation policy and addresses pressing societal challenges. I hope to expand my research into the roles of science and diversity in shaping responsible technologies, continue mentoring students, and contribute to collaborative, international research communities.</p>
 </div>
 
-</div>
+ 
+---
