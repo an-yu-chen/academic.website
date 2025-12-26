@@ -2,7 +2,6 @@
 layout: default
 title: "Biography"
 ---
-
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Lora:wght@400;700&display=swap');
 
@@ -11,9 +10,9 @@ title: "Biography"
   margin: 2rem auto;
   padding: 0 2rem;
   font-family: 'Lora', serif;
-  color: #333; /* dark grey for readability */
+  color: #333; /* main text dark grey */
   line-height: 1.8;
-  background-color: #fcf8f1; /* light cream page background */
+  background-color: #fcf8f1; /* cream page background */
 }
 
 /* Bio Header */
@@ -36,7 +35,7 @@ title: "Biography"
 
 .bio-header p {
   font-size: 1.35rem;
-  color: #6a7f9f; /* soft blue-gray */
+  color: #555; /* soft dark grey */
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.6;
@@ -59,7 +58,7 @@ title: "Biography"
 .bio-section h2 {
   font-family: 'Merriweather', serif;
   font-size: 2.2rem;
-  color: #2a9d8f; /* teal accent */
+  color: #333; /* dark grey for headings */
   margin-bottom: 1.5rem;
   font-weight: 700;
   border-bottom: 2px solid #ffeedd;
@@ -133,11 +132,11 @@ title: "Biography"
 
 /* Links (optional accent) */
 a {
-  color: #e07a5f;
+  color: #e07a5f; /* coral */
   text-decoration: underline;
 }
 a:hover {
-  color: #2a9d8f;
+  color: #f4a261; /* orange accent */
   text-decoration: none;
 }
 </style>
