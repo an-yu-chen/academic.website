@@ -9,8 +9,8 @@ title: "Personal Journey"
   margin: 3rem auto;
   padding: 0 1.5rem;
   font-family: "Georgia", serif;
-  color: #2f2f2f;
   line-height: 1.8;
+  color: #2f2f2f;
 }
 
 .journey-hero {
@@ -30,8 +30,8 @@ title: "Personal Journey"
   background: #ffffff;
   border-radius: 14px;
   padding: 2.5rem;
-  margin-bottom: 3rem;
   box-shadow: 0 12px 28px rgba(0,0,0,0.06);
+  margin-bottom: 3rem;
 }
 
 .pull-quote {
@@ -47,63 +47,53 @@ title: "Personal Journey"
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
-  margin: 3rem 0;
+  margin-top: 3rem;
 }
 
-.image-frame {
-  background: #fff;
-  border-radius: 14px;
-  padding: 1rem;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
-.image-frame img {
+.image-grid img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
 .image-caption {
   text-align: center;
   font-size: 0.95rem;
-  margin-top: 0.8rem;
+  margin-top: 0.5rem;
   color: #555;
 }
 </style>
 
 <div class="journey-wrapper">
 
-  <div class="journey-hero">
-    <h1>My Life-Changing Journey in Tanzania</h1>
-    <p>
-      A summer that reminded me we are all connected — through kindness,
-      humility, and shared humanity.
-    </p>
-  </div>
+<div class="journey-hero">
+<h1>My Life-Changing Journey in Tanzania</h1>
+<p>A summer that reminded me we are all connected — through kindness, humility, and shared humanity.</p>
+</div>
 
-  <div class="story-card">
-    <p>
-      In the summer of 2014, I travelled to Tanzania. This journey reminded me
-      that we are all connected. Having purity in heart and a positive attitude
-      made a significant difference. I learned deeply from the people I met,
-      and whilst volunteering, I received just as much support as I gave.
-    </p>
+<div class="story-card">
 
-    <div class="pull-quote">
-      “This trip changed my life entirely — it taught me to see the light,
-      to appreciate, and to help whenever I can.”
-    </div>
+In the summer of 2014, I travelled to Tanzania. This journey reminded me that we are all connected. Having purity in heart and a positive attitude made a significant difference. I learned deeply from the people I met, and whilst volunteering, I received just as much support as I gave.
 
-    <p>
-      I was involved in teaching computer skills, setting up computer classrooms,
-      and engaging in cultural exchange. I also learned Kiswahili and experienced
-      what it means to build a life in a completely new environment.
-    </p>
-  </div>
+<div class="pull-quote">
+This trip changed my life entirely — it taught me to see the light, to appreciate, and to help whenever I can.
+</div>
 
-  
-# My Life-Changing Journey in Tanzania
-This experience made me independent and showed me the ways of building my life in a place that was completely new to me. The joy of knowing that life, with all its unknowns, always finds its way gave me peace.  
+I was involved in teaching computer skills, setting up computer classrooms, and engaging in cultural exchange. I also learned Kiswahili and experienced what it means to build a life in a completely new environment.
+
+</div>
+
 
 ![Computer Teaching](assets/han.jpg)
+ 
+
+<div class="image-caption">Teaching computer skills and building classrooms together</div>
+
 ![My Journey](assets/tan.jpg)
----
+
+
+<div class="image-caption">Moments from a journey that shaped who I am today</div>
+
+</div>
+
+
