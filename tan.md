@@ -5,73 +5,103 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Personal Journey</title>
 <style>
-    /* Global Styles */
+    /* ----- Global Styles ----- */
     body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background: linear-gradient(to bottom right, #f9f7f6, #e0f7fa);
+        font-family: 'Georgia', serif;
+        background: #f5f5f5;
         color: #333;
         margin: 0;
         padding: 0;
-        line-height: 1.6;
+        line-height: 1.75;
     }
 
+    a {
+        color: #1a73e8;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* ----- Container ----- */
     .container {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 20px 30px;
+        max-width: 850px;
+        margin: 50px auto;
+        padding: 30px 25px;
         background: #fff;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-        border-radius: 10px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        border-radius: 12px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.08);
     }
 
+    /* ----- Headings ----- */
     h1, h2 {
         text-align: center;
-        color: #00796b;
         margin-bottom: 20px;
     }
 
+    h1 {
+        font-size: 2.8rem;
+        font-weight: normal;
+        color: #222;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: normal;
+        margin-top: 40px;
+        color: #444;
+    }
+
+    /* ----- Paragraphs ----- */
     p {
-        font-size: 1.1rem;
-        margin-bottom: 15px;
+        font-size: 1.15rem;
+        margin-bottom: 1.5rem;
     }
 
-    img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        margin: 20px auto;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        transition: transform 0.3s ease;
-    }
-
-    img:hover {
-        transform: scale(1.05);
-    }
-
+    /* ----- Highlighted Text ----- */
     .highlight {
-        background-color: #e0f2f1;
-        padding: 5px 10px;
+        background-color: #e2e2e2;
+        padding: 3px 8px;
         border-radius: 5px;
         font-weight: bold;
     }
 
+    /* ----- Images ----- */
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 25px auto;
+        border-radius: 10px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+    }
+
+    img:hover {
+        transform: scale(1.03);
+    }
+
+    /* ----- Divider ----- */
     hr {
         border: none;
         height: 2px;
-        background: #00796b;
+        background: #ccc;
         margin: 40px 0;
         border-radius: 2px;
     }
 
+    /* ----- Responsive ----- */
     @media (max-width: 600px) {
         .container {
-            padding: 15px 20px;
+            padding: 20px 15px;
         }
 
-        h1, h2 {
+        h1 {
+            font-size: 2rem;
+        }
+
+        h2 {
             font-size: 1.5rem;
         }
 
@@ -82,6 +112,7 @@
 </style>
 </head>
 <body>
+
 <div class="container">
     <h1>Personal Journey</h1>
 
@@ -99,7 +130,7 @@
 
     <img src="assets/han.jpg" alt="Computer Teaching">
     <img src="assets/tan.jpg" alt="My Journey">
-
 </div>
+
 </body>
 </html>
