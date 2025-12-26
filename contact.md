@@ -5,23 +5,23 @@ title: "Contact"
 
 <style>
   :root {
-    --primary-color: #34495e;
+    --primary-color: #2c3e50;
     --secondary-color: #f39c12;
-    --background-color: #f7f9fb;
+    --background-color: #ecf0f1;
     --accent-color: #ecf0f1;
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-color);
     background-color: var(--background-color);
     line-height: 1.6;
   }
 
   .contact-container {
-    max-width: 800px;
+    max-width: 850px;
     margin: 60px auto;
-    padding: 40px;
+    padding: 50px;
     background: white;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -30,15 +30,16 @@ title: "Contact"
 
   h1 {
     font-size: 2.8rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: var(--primary-color);
     font-weight: 700;
+    font-family: 'Playfair Display', serif;
   }
 
   h2 {
     font-size: 1.6rem;
     margin-top: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     color: #7f8c8d;
     font-weight: 400;
   }
