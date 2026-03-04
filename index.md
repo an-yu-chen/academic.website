@@ -11,7 +11,7 @@ title: "Home"
     --background-accent: #fdf6e3;
     --text-color: #34495e;
     --link-color: #3498db;
-    --button-color: #e67e22;
+    --highlight-color: #e67e22;
   }
 
   body {
@@ -42,18 +42,22 @@ title: "Home"
     background: linear-gradient(135deg, #fef0c7, #fde4eb);
     color: var(--primary-color);
     text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  .hero-section:hover {
+    background: linear-gradient(135deg, #fde4eb, #fef0c7);
   }
 
   .profile-pic {
-    width: 250px;                 /* bigger circle */
-    height: 250px;                /* maintain square */             /* responsive */
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 4px solid white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 25px;
-    object-fit: cover;            /* fill circle without stretching */
+    object-fit: cover;
   }
-
 
   h1 {
     font-size: 3rem;
@@ -82,28 +86,10 @@ title: "Home"
   }
 
   p.large {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.8;
-  }
-
-  .cv-button {
-    display: inline-block;
-    background-color: var(--button-color);
-    color: white;
-    padding: 12px 30px;
-    font-size: 1.1rem;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: 600;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-
-  .cv-button:hover {
-    background-color: #d35400;
-    transform: translateY(-2px);
   }
 
   .experience-item {
@@ -145,7 +131,7 @@ title: "Home"
     content: '•';
     position: absolute;
     left: 0;
-    color: var(--secondary-color);
+    color: var(--highlight-color);
     font-size: 1.2rem;
     line-height: 1;
   }
@@ -175,10 +161,9 @@ title: "Home"
     display: block;
     font-size: 1.15rem;
     margin-bottom: 5px;
-    color: var(--secondary-color);
+    color: var(--highlight-color);
   }
 
-  /* LinkedIn-specific styles to honor your request */
   .connect-section {
     padding: 40px 20px;
     text-align: center;
@@ -195,9 +180,14 @@ title: "Home"
 
   .linkedin-icon-container img {
     width: 350px;
-    height: auto;
     max-width: 100%;
+    height: auto;
     margin-top: 50px;
+    transition: transform 0.3s ease;
+  }
+
+  .linkedin-icon-container img:hover {
+    transform: scale(1.05);
   }
 </style>
 
@@ -206,11 +196,8 @@ title: "Home"
   <h1>An Yu Chen</h1>
   <p class="subtitle">Doctoral Researcher | Research Associate</p>
   <p class="intro-text">
-    Hello and welcome to my academic website! I'm a Doctoral Researcher and Research Associate at the <a href="https://www.mioir.manchester.ac.uk" style="color: var(--link-color); text-decoration: none;">Manchester Institute of Innovation Research</a>, based in the Alliance Manchester Business School at The University of Manchester. My work focuses on the intricate linkages between science and technology, specifically how scientific knowledge contributes to the development of green technologies. Through rigorous analysis and policy engagement, I aim to create real-world impact.
+    Welcome! I'm a researcher at the <a href="https://www.mioir.manchester.ac.uk" style="color: var(--link-color); text-decoration: none;">Manchester Institute of Innovation Research</a>, Alliance Manchester Business School. I explore how scientific knowledge drives sustainable technology and informs policy, with a focus on green technologies, AI, and societal impact. Here you can learn about my research, collaborations, and public engagement.
   </p>
-  <a href="assets/anyu.pdf" target="_blank" class="cv-button">
-    View My CV
-  </a>
 </div>
 
 <div class="section section-primary">
@@ -219,47 +206,35 @@ title: "Home"
     <h3>Research Associate, MIOIR & AMBS</h3>
     <h4>The University of Manchester | Apr 2025-Present</h4>
     <ul>
-      <li>Worked on an EPO funded project with bibliometric metadata and large-scale PhD thesis datasets.</li>
-      <li>Utilised virtualised Linux environments on server to efficiently download and process terabytes of big data.</li>
-      <li>Constructed complex datasets, linking PhD thesis data to publication data using data from Scopus and OpenAlex.</li>
-      <li>Contributed to drafting detailed methodological reports and analysis strategies.</li>
+      <li>Leading EPO-funded projects linking bibliometric and PhD thesis datasets to study knowledge flows.</li>
+      <li>Utilising virtualised Linux servers and advanced Python, R, and PySpark pipelines to handle terabytes of data.</li>
+      <li>Drafting detailed methodological reports and analytical strategies for policy-relevant insights.</li>
+      <li>Engaging with stakeholders, including UKRI, Innovate UK, and the Innovation Research Caucus.</li>
     </ul>
   </div>
 </div>
 
 <div class="section section-accent">
-  <h2>Highlights of My Journey</h2>
+  <h2>Highlights of My Academic Journey</h2>
   <ul class="highlights-list">
-    <li>
-      <strong>PhD in Science, Technology and Innovation Policy</strong>
-      Alliance Manchester Business School, The University of Manchester (2021-Present)
-    </li>
-    <li>
-      <strong>MSc in Business Administration in Technology Management</strong>
-      National Tsing Hua University (2013-2015)
-    </li>
-    <li>
-      <strong>Research Assistant</strong>
-      The University of Manchester (2023-2024)
-    </li>
-    <li>
-      <strong>Teaching Assistant</strong>
-      Database Systems, The University of Manchester (2023)
-    </li>
+    <li><strong>PhD in Science, Technology and Innovation Policy</strong> Alliance Manchester Business School (2021-Present)</li>
+    <li><strong>MSc in Business Administration – Technology Management</strong> National Tsing Hua University (2013-2015)</li>
+    <li><strong>Research Assistant</strong> The University of Manchester (2023-2024)</li>
+    <li><strong>Teaching Assistant – Database Systems</strong> The University of Manchester (2023)</li>
   </ul>
 </div>
 
 <div class="section section-primary">
   <h2>Research Interests</h2>
   <p class="large">
-    My research explores the relationship between science and technology, with a particular focus on the scientific foundations of green technologies. My goal is to understand knowledge flows across scientific fields and contribute to important policy discussions in science, technology, and innovation.
+    My research focuses on the intersection of science, technology, and sustainability, investigating knowledge flows, gender differences, and the foundations of green technologies. I aim to deliver evidence-based insights to inform policy and societal transitions toward net-zero and inclusive innovation.
   </p>
 </div>
 
 <div class="section section-accent">
   <h2>About Me</h2>
   <p class="large">
-    I am a curious and enthusiastic thinker who thrives on connecting with people and exploring fresh perspectives. I bring energy and creativity to my work and collaborations, and I'm always eager to learn and grow.
+    I am passionate about collaborative research, data-driven insights, and translating complex analyses into actionable outcomes. I enjoy connecting with people, exploring interdisciplinary perspectives, and contributing to impactful projects that bridge academia, policy, and society.
   </p>
 </div>
 
