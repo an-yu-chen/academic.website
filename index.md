@@ -206,12 +206,27 @@ title: "Home"
     <h3>Research Associate, MIOIR & AMBS</h3>
     <h4>The University of Manchester | Apr 2025-Present</h4>
     <ul>
-      <li>Leading EPO-funded projects linking bibliometric and PhD thesis datasets to study knowledge flows.</li>
+      <li>Working on EPO-funded projects linking bibliometric and PhD thesis datasets to study knowledge flows.</li>
+      <li>Contributing to the <strong>DOCTRACK Final Technical Report</strong> for the European Patent Office through a strong team effort. 
+      <a href="https://link.epo.org/web/academic-research-programme/completed-research-projects/en-doc-track-2022-2025-final-technical-report.pdf" target="_blank" style="color: var(--link-color); text-decoration: none;">View Report</a></li>
       <li>Utilising virtualised Linux servers and advanced Python, R, and PySpark pipelines to handle terabytes of data.</li>
       <li>Drafting detailed methodological reports and analytical strategies for policy-relevant insights.</li>
       <li>Engaging with stakeholders, including UKRI, Innovate UK, and the Innovation Research Caucus.</li>
     </ul>
   </div>
+</div>
+
+<div class="section section-primary">
+  <h2>Research Reports</h2>
+  <ul class="highlights-list">
+    <li>
+      <strong>UK Doctoral Graduates’ Contribution to Innovation – IRC Caucus</strong>
+      Research report summarising PhD graduates’ influence on innovation in the UK: 
+      <a href="https://ircaucus.ac.uk/publications/uk-doctoral-graduates-contribution-to-innovation/" target="_blank" style="color: var(--link-color); text-decoration: none;">
+        View Report
+      </a>
+    </li>
+  </ul>
 </div>
 
 <div class="section section-accent">
@@ -234,7 +249,7 @@ title: "Home"
 <div class="section section-accent">
   <h2>About Me</h2>
   <p class="large">
-    I am passionate about collaborative research, data-driven insights, and translating complex analyses into actionable outcomes. I enjoy connecting with people, exploring interdisciplinary perspectives, and contributing to impactful projects that bridge academia, policy, and society.
+    I am passionate about collaborative research, team efforts, data-driven insights, and translating complex analyses into actionable outcomes. I enjoy connecting with people, exploring interdisciplinary perspectives, and contributing to impactful projects that bridge academia, policy, and society.
   </p>
 </div>
 
