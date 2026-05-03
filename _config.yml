@@ -4,7 +4,6 @@
 # Site Settings
 
 title: "An Yu Chen"
-description: "Research Associate | Science of Science | Innovation Policy | Green Technology"
 baseurl: ""
 url: ""
 
@@ -25,10 +24,7 @@ navigation:
     url: /teaching/
   - title: Social Responsibility
     url: /social-responsibility/
-  - title: CV
-    url: /cv/
-  - title: Contact
-    url: /contact/
+   
 
 # Homepage style
 show_excerpts: true
