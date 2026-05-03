@@ -1,51 +1,56 @@
-# `_config.yml`
-
- 
-# Site Settings
-
 title: "An Yu Chen"
-baseurl: ""
-url: ""
+author: "Blog Author"
+description: "An Yu Chen"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
 
-# Theme (forked from niklasbuschmann/contrast)
-theme: contrast
+# Layout
 
-# Author Information
-name: "An Yu Chen"
-location:  "UK"
+show_excerpts: false       # clean professional homepage without article previews
+show_frame: true           # elegant framed layout
+show_sidebar: false        # modern top navigation instead of sidebar
+minimal: false             # polished dark header for stronger visual identity
 
-# Navigation Menu
+# Menu
+
 navigation:
-  - title: Home
-    url: /
-  - title: Research
-    url: /research/
-  - title: Teaching
-    url: /teaching/
-  - title: Social Responsibility
-    url: /social-responsibility/
-   
+  - title: "Research Pipeline"
+    url: "#"
+    children:
+      - {title: "Article 1: Research Vision and Scope", file: "research-1.md"}
+      - {title: "Article 2: Methodological Framework", file: "research-2.md"}
+      - {title: "Article 3: Empirical Strategy", file: "research-3.md"}
+      - {title: "Article 4: Findings and Insights", file: "research-4.md"}
+      - {title: "Article 5: Future Research Directions", file: "research-5.md"}
 
-# Homepage style
-show_excerpts: true
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
+  - title: "Teaching"
+    url: "#"
+    children:
+      - {title: "Article 1: Teaching Philosophy", file: "teaching-1.md"}
+      - {title: "Article 2: Classroom Innovation", file: "teaching-2.md"}
+      - {title: "Article 3: Student Engagement", file: "teaching-3.md"}
+      - {title: "Article 4: Learning Outcomes", file: "teaching-4.md"}
+      - {title: "Article 5: Academic Mentorship", file: "teaching-5.md"}
 
-# Bright clean visual style
-style:
-  background: "#ffffff"
-  text: "#1f2937"
-  accent: "#2c7be5"
-  muted: "#6b7280"
+  - title: "Social Responsibility"
+    url: "#"
+    children:
+      - {title: "Article 1: Community Engagement", file: "social-1.md"}
+      - {title: "Article 2: Public Scholarship", file: "social-2.md"}
+      - {title: "Article 3: Sustainability and Impact", file: "social-3.md"}
+      - {title: "Article 4: Ethical Research Practice", file: "social-4.md"}
+      - {title: "Article 5: Inclusive Knowledge Sharing", file: "social-5.md"}
 
-# Plugins
+external:
+  - {title: Mail, icon: envelope, url: "mailto:chen.an.yu@outlook.com"}
+  - {title: Github, icon: github, url: "https://github.com/an-yu-chen"}
+  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+
+comments:
+#  disqus_shortname: ""
+#  isso_domain: ""
+
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
+ - jekyll-feed
