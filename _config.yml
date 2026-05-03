@@ -1,37 +1,58 @@
-title: "An Yu Chen"
-author: "Blog Author"
-description: "An Yu Chen"
-permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
+# `_config.yml`
+
  
-# Layout
+# Site Settings
 
-show_excerpts: false        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-minimal: false             # use a dark header
+title: "An Yu Chen"
+description: "Research Associate | Science of Science | Innovation Policy | Green Technology"
+baseurl: ""
+url: ""
 
-# Menu
+# Theme (forked from niklasbuschmann/contrast)
+theme: contrast
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Doctoral Researcher", url: "https://research.manchester.ac.uk/en/persons/anyu.chen-postgrad"}
-  - {title: "Biography", file: "blog.md"}
-  - {title: "Working Paper", file: "paper.md"}
-  - {title: "Contact", file: "contact.md"}
-  - {title: "Personal Journey", file: "tan.md"}
+# Author Information
+name: "An Yu Chen"
+email: "chen.an.yu@outlook.com"
+phone: "+44 (0)7787872338"
+location: "Manchester Institute of Innovation Research (MIOIR), Alliance Manchester Business School, University of Manchester"
+address: "Booth Street West, Manchester, UK, M15 6PB"
 
+# Navigation Menu
+navigation:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Teaching
+    url: /teaching/
+  - title: Social Responsibility
+    url: /social-responsibility/
+  - title: CV
+    url: /cv/
+  - title: Contact
+    url: /contact/
 
-  
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:chen.an.yu@outlook.com"}
-  - {title: Github, icon: github, url: "https://github.com/an-yu-chen"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+# Homepage style
+show_excerpts: true
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
 
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
+# Bright clean visual style
+style:
+  background: "#ffffff"
+  text: "#1f2937"
+  accent: "#2c7be5"
+  muted: "#6b7280"
 
+# Plugins
 plugins:
- - jekyll-feed
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
