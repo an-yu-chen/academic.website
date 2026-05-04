@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: "Home"
@@ -6,238 +5,234 @@ title: "Home"
 
 <style>
 :root {
-  --primary: #1f3c88;
-  --accent: #3fa9f5;
-  --soft: #f8fbff;
-  --warm: #fffaf2;
-  --text: #243447;
+  --bg: #ffffff;
+  --text: #1f2937;
   --muted: #6b7280;
-  --line: #dbeafe;
+  --primary: #4c1d95;   /* purple */
+  --secondary: #065f46; /* dark green */
+  --card: #f9fafb;
+  --border: #e5e7eb;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: white;
+  background: var(--bg);
   color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
   line-height: 1.7;
 }
 
-.hero {
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #ffffff, #f7fbff);
+/* HERO */
+.hero-section {
   text-align: center;
+  padding: 80px 20px;
+  background: #ffffff;
 }
 
 .profile-pic {
-  width: 220px;
-  height: 220px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid white;
+  border: 4px solid #fff;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-  margin-bottom: 25px;
 }
 
 h1 {
   font-size: 3rem;
-  margin-bottom: 10px;
+  margin: 20px 0 5px;
+  color: var(--text);
 }
 
 .subtitle {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--muted);
 }
 
+/* SECTIONS */
 .section {
-  max-width: 1100px;
-  margin: auto;
-  padding: 70px 20px;
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.section-title {
-  text-align: center;
-  font-size: 2.2rem;
-  margin-bottom: 40px;
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: var(--primary);
 }
+
+/* CARDS */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 25px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+/* TEXT */
+p {
+  color: var(--text);
+}
+
+/* LINKS */
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===========================
+   HORIZONTAL TIMELINE
+   =========================== */
 
 .timeline {
-  position: relative;
-  margin: 50px auto;
-  padding-left: 40px;
-  border-left: 4px solid var(--accent);
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px 10px;
+  scroll-snap-type: x mandatory;
 }
 
 .timeline-item {
+  min-width: 260px;
+  background: #ffffff;
+  border: 2px solid var(--border);
+  border-top: 4px solid var(--primary);
+  border-radius: 12px;
+  padding: 20px;
+  scroll-snap-align: start;
   position: relative;
-  margin-bottom: 50px;
-  background: var(--soft);
-  padding: 28px;
-  border-radius: 14px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.04);
 }
 
-.timeline-item::before {
-  content: "";
-  position: absolute;
-  left: -52px;
-  top: 30px;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: var(--accent);
+.timeline-item:nth-child(even) {
+  border-top-color: var(--secondary);
 }
 
-.year {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--primary);
-}
-
-.role {
-  font-size: 1.35rem;
-  font-weight: 700;
-  margin: 8px 0;
-}
-
-.place {
-  color: var(--muted);
-  margin-bottom: 12px;
-}
-
-.quick-links {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.card {
-  background: white;
-  border: 1px solid #eef2ff;
-  border-radius: 16px;
-  padding: 28px;
-  text-align: center;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
-}
-
-.card a {
-  text-decoration: none;
-  color: var(--primary);
+.timeline-date {
   font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 8px;
 }
 
-.contact-box {
-  background: var(--warm);
-  border-radius: 18px;
-  padding: 40px;
+/* LINKEDIN */
+.connect {
   text-align: center;
+  padding: 50px 20px;
+}
+
+.connect img {
+  width: 220px;
+  transition: 0.3s;
+}
+
+.connect img:hover {
+  transform: scale(1.05);
 }
 </style>
 
-<div class="hero">
-  <img src="/assets/profile.jpg" alt="An Yu Chen" class="profile-pic">
+<!-- HERO -->
+<div class="hero-section">
+  <img src="assets/profile_picture.jpg" class="profile-pic">
   <h1>An Yu Chen</h1>
-  <p class="subtitle">Research Associate in Science of Science | University of Manchester</p>
-
-  <p>
-    Manchester Institute of Innovation Research (MIOIR) & Alliance Manchester Business School (AMBS)<br>
-    Booth Street West, Manchester, UK, M15 6PB<br>
-    +44 (0)7787872338 | chen.an.yu@outlook.com
-  </p>
+  <p class="subtitle">Research Associate | Science of Science | PhD (Completed)</p>
 </div>
 
+<!-- ABOUT -->
 <div class="section">
-  <h2 class="section-title">Academic Milestone Timeline (2015–2025)</h2>
+  <h2>About</h2>
+  <div class="card">
+    <p>
+      I am a researcher at the University of Manchester working on science of science, innovation policy, and knowledge flows.
+      My work explores how scientific knowledge translates into sustainable technologies and informs public policy, particularly in green innovation and AI.
+    </p>
+  </div>
+</div>
+
+<!-- RESEARCH -->
+<div class="section">
+  <h2>Research Experience</h2>
+
+  <div class="card">
+    <strong>Research Associate</strong><br>
+    University of Manchester (2025–Present)<br><br>
+    Working on EPO-funded projects linking bibliometric and doctoral datasets to understand knowledge production and diffusion.
+  </div>
+</div>
+
+<!-- TIMELINE -->
+<div class="section">
+  <h2>Academic Milestone Timeline</h2>
 
   <div class="timeline">
 
     <div class="timeline-item">
-      <div class="year">2025 – Present</div>
-      <div class="role">Research Associate in Science of Science</div>
-      <div class="place">MIOIR & AMBS, The University of Manchester</div>
-      <p>EPO-funded project using Scopus, OpenAlex and large-scale PhD thesis datasets. Big-data analysis using Linux servers, Python, R and bibliometric methods. Policy engagement with UKRI and Innovation Research Caucus.</p>
+      <div class="timeline-date">2025–2026</div>
+      Research Associate in Science of Science at the University of Manchester
     </div>
 
     <div class="timeline-item">
-      <div class="year">March 2025</div>
-      <div class="role">Visiting Scholar</div>
-      <div class="place">Politecnico di Milano</div>
-      <p>Research seminar with EFI community on scientific knowledge and technology development. Supported international PhD collaboration between Polimi and AMBS.</p>
+      <div class="timeline-date">2021–2025</div>
+      PhD in Science, Technology and Innovation Policy (Completed)
     </div>
 
     <div class="timeline-item">
-      <div class="year">2024</div>
-      <div class="role">Research Assistant – UK Doctoral Graduates Project</div>
-      <div class="place">University of Manchester</div>
-      <p>Worked on UK Doctrack project with bibliometric data, text mining verification, gender and ethnicity analysis, and technical reports using R and Python.</p>
+      <div class="timeline-date">March 2025</div>
+      Visiting Scholar, Politecnico di Milano
     </div>
 
     <div class="timeline-item">
-      <div class="year">2023–2024</div>
-      <div class="role">Research Assistant – Multiple Affiliations Project</div>
-      <div class="place">University of Manchester</div>
-      <p>Used PySpark and topic modelling on Scopus publication data. Explored simultaneous academia–industry affiliations and AI-related research outputs.</p>
+      <div class="timeline-date">2023–2024</div>
+      Research Assistant, MIOIR, AMBS
     </div>
 
     <div class="timeline-item">
-      <div class="year">2023</div>
-      <div class="role">Teaching Assistant – Database Systems</div>
-      <div class="place">Computer Science Department, University of Manchester</div>
-      <p>Supported undergraduate database systems teaching, assignment marking and lab sessions with students.</p>
+      <div class="timeline-date">2023</div>
+      Teaching Assistant – Database Systems
     </div>
 
     <div class="timeline-item">
-      <div class="year">2021–2025</div>
-      <div class="role">PhD in Science, Technology and Innovation Policy</div>
-      <div class="place">Alliance Manchester Business School</div>
-      <p>Thesis: <em>The Contribution of Scientific Knowledge to Green Technology Development: Three Essays</em>. Viva passed July 23rd, 2025.</p>
+      <div class="timeline-date">2019–2020</div>
+      Research Internship in Innovation Studies
     </div>
 
     <div class="timeline-item">
-      <div class="year">2017–2020</div>
-      <div class="role">Student Research Assistant</div>
-      <div class="place">National Taiwan University</div>
-      <p>Publication analysis, management research support, and academic journal assistance.</p>
+      <div class="timeline-date">2018</div>
+      Early research exposure in data science methods
     </div>
 
     <div class="timeline-item">
-      <div class="year">2016–2017</div>
-      <div class="role">Customer Service Specialist</div>
-      <div class="place">Booking.com</div>
-      <p>XML system management and international customer support in multicultural operations.</p>
+      <div class="timeline-date">2015</div>
+      MSc in Technology Management (Completed)
     </div>
 
     <div class="timeline-item">
-      <div class="year">2013–2015</div>
-      <div class="role">MA in Business Administration (Technology Management)</div>
-      <div class="place">National Tsing Hua University</div>
-      <p>Developed strong foundations in technology management, innovation and strategic research.</p>
+      <div class="timeline-date">2013–2015</div>
+      Graduate studies in Business Administration
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">Early Career</div>
+      Developed foundational interest in science, policy, and data
     </div>
 
   </div>
 </div>
 
+<!-- RESEARCH INTERESTS -->
 <div class="section">
-  <h2 class="section-title">Explore My Academic Work</h2>
-
-  <div class="quick-links">
-    <div class="card"><a href="/research/">Research</a><p>Projects, papers, publications, working papers and conferences</p></div>
-    <div class="card"><a href="/teaching/">Teaching</a><p>Teaching assistantship, student support and reflections</p></div>
-    <div class="card"><a href="/social-responsibility/">Social Responsibility</a><p>Policy engagement, mentoring and public contribution</p></div>
-    <div class="card"><a href="/contact/">Contact</a><p>Collaboration opportunities and academic partnerships</p></div>
+  <h2>Research Interests</h2>
+  <div class="card">
+    Science of science · Innovation policy · Green technologies · AI for science · Knowledge diffusion · Sustainability transitions
   </div>
 </div>
 
-<div class="section">
-  <div class="contact-box">
-    <h2>Contact</h2>
-    <p>
-      I welcome collaboration opportunities, research visits, seminars and joint academic projects.<br><br>
-      <strong>Email:</strong> chen.an.yu@outlook.com<br>
-      <strong>Phone:</strong> +44 (0)7787872338
-    </p>
-  </div>
+<!-- CONNECT -->
+<div class="connect">
+  <h2>Connect</h2>
+  <a href="https://www.linkedin.com/">
+    <img src="assets/linkedin.png">
+  </a>
 </div>
- 
-
- 
