@@ -1,5 +1,5 @@
 /* ===========================
-   CLEAN ACADEMIC NAV FIX
+   PROFESSIONAL NAV DROPDOWN FIX
    =========================== */
 
 nav
@@ -12,25 +12,24 @@ nav
     margin: 0
     padding: 0
     display: flex
-    gap: 3rem
+    gap: 2.5rem
     align-items: center
 
   li
     position: relative
 
     a
-      color: #1f2937 !important
       text-decoration: none
+      color: inherit
       font-weight: 500
-      font-size: 0.95rem
-      padding: 0.6rem 0
-      display: block
-      transition: all 0.2s ease
+      padding: 0.5rem 0
+      display: inline-block
+      transition: 0.2s ease
 
-    a:hover
-      color: #8b1e3f !important
+      &:hover
+        color: #8b1e3f
 
-    /* underline */
+    /* underline effect */
     a:after
       content: ""
       display: block
@@ -43,31 +42,33 @@ nav
     a:hover:after
       width: 100%
 
-    /* dropdown */
+    /* dropdown container */
     ul
       display: none
       position: absolute
       top: 100%
       left: 0
-      min-width: 260px
-      background: #ffffff
+      min-width: 240px
+      background: white
       border: 1px solid rgba(0,0,0,0.08)
       border-radius: 10px
       box-shadow: 0 10px 25px rgba(0,0,0,0.08)
       padding: 0.5rem 0
       z-index: 999
 
+    /* show dropdown on hover */
     &:hover > ul
       display: block
 
     /* dropdown items */
     ul li a
-      padding: 0.7rem 1rem
+      display: block
+      padding: 0.6rem 1rem
       font-size: 0.9rem
-      color: #374151 !important
       white-space: nowrap
+      color: #374151
 
-    ul li a:hover
-      background: #f3f4f6
-      color: #8b1e3f !important
-      padding-left: 1.3rem
+      &:hover
+        background: #f9fafb
+        color: #8b1e3f
+        padding-left: 1.2rem
