@@ -248,3 +248,35 @@ a:hover {
     <img src="assets/linkedin.png">
   </a>
 </div>
+<!-- ACADEMIC MAP -->
+<div class="section">
+  <h2>Academic Network & Global Experience</h2>
+
+  <div id="map" style="height: 420px; border-radius: 14px; border: 1px solid #e5e7eb;"></div>
+</div>
+
+<!-- Leaflet Map Library -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+var map = L.map('map').setView([25, 10], 2);
+
+// Clean academic tile layer
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+// Markers (your academic journey)
+L.marker([53.4668, -2.2339]).addTo(map)
+  .bindPopup("<b>University of Manchester</b><br>Research Associate");
+
+L.marker([45.4781, 9.2266]).addTo(map)
+  .bindPopup("<b>Politecnico di Milano</b><br>Visiting Scholar");
+
+L.marker([24.7873, 120.9915]).addTo(map)
+  .bindPopup("<b>National Tsing Hua University</b><br>MSc Studies");
+
+// UI polish
+map.scrollWheelZoom.disable();
+</script>
