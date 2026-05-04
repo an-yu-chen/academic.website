@@ -1,5 +1,5 @@
 /* ===========================
-   CLEAN ACADEMIC NAVIGATION
+   PROFESSIONAL NAV DROPDOWN FIX
    =========================== */
 
 nav
@@ -13,32 +13,46 @@ nav
     padding: 0
     display: flex
     gap: 2.5rem
+    align-items: center
 
   li
     position: relative
 
     a
       text-decoration: none
-      color: #1f2937
+      color: inherit
       font-weight: 500
-      font-size: 0.95rem
-      padding: 0.6rem 0
+      padding: 0.5rem 0
+      display: inline-block
+      transition: 0.2s ease
+
+      &:hover
+        color: #8b1e3f
+
+    /* underline effect */
+    a:after
+      content: ""
       display: block
+      width: 0
+      height: 2px
+      background: #8b1e3f
+      transition: width 0.3s
+      margin-top: 4px
 
-    a:hover
-      color: #8b1e3f
+    a:hover:after
+      width: 100%
 
-    /* dropdown box */
+    /* dropdown container */
     ul
       display: none
       position: absolute
       top: 100%
       left: 0
-      min-width: 260px
-      background: #ffffff
-      border: 1px solid #e5e7eb
+      min-width: 240px
+      background: white
+      border: 1px solid rgba(0,0,0,0.08)
       border-radius: 10px
-      box-shadow: 0 10px 20px rgba(0,0,0,0.08)
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08)
       padding: 0.5rem 0
       z-index: 999
 
@@ -48,11 +62,13 @@ nav
 
     /* dropdown items */
     ul li a
+      display: block
       padding: 0.6rem 1rem
       font-size: 0.9rem
       white-space: nowrap
       color: #374151
 
-    ul li a:hover
-      background: #f3f4f6
-      color: #8b1e3f
+      &:hover
+        background: #f9fafb
+        color: #8b1e3f
+        padding-left: 1.2rem
