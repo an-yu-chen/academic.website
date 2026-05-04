@@ -8,10 +8,10 @@ title: "Home"
   --bg: #ffffff;
   --text: #1f2937;
   --muted: #6b7280;
-  --primary: #4c1d95;   /* purple */
-  --secondary: #065f46; /* dark green */
-  --card: #f9fafb;
+  --purple: #4c1d95;
+  --green: #065f46;
   --border: #e5e7eb;
+  --card: #f9fafb;
 }
 
 body {
@@ -19,13 +19,13 @@ body {
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
   line-height: 1.7;
+  margin: 0;
 }
 
 /* HERO */
 .hero-section {
   text-align: center;
-  padding: 80px 20px;
-  background: #ffffff;
+  padding: 80px 20px 40px;
 }
 
 .profile-pic {
@@ -40,7 +40,6 @@ body {
 h1 {
   font-size: 3rem;
   margin: 20px 0 5px;
-  color: var(--text);
 }
 
 .subtitle {
@@ -48,7 +47,7 @@ h1 {
   color: var(--muted);
 }
 
-/* SECTIONS */
+/* SECTION */
 .section {
   padding: 60px 20px;
   max-width: 1000px;
@@ -58,26 +57,20 @@ h1 {
 h2 {
   font-size: 1.8rem;
   margin-bottom: 25px;
-  color: var(--primary);
+  color: var(--purple);
 }
 
-/* CARDS */
+/* CARD */
 .card {
   background: var(--card);
   border: 1px solid var(--border);
   padding: 25px;
   border-radius: 14px;
-  margin-bottom: 20px;
-}
-
-/* TEXT */
-p {
-  color: var(--text);
 }
 
 /* LINKS */
 a {
-  color: var(--secondary);
+  color: var(--green);
   text-decoration: none;
 }
 a:hover {
@@ -85,42 +78,83 @@ a:hover {
 }
 
 /* ===========================
-   HORIZONTAL TIMELINE
+   TIMELINE (ANIMATED DOTS)
    =========================== */
 
 .timeline {
+  position: relative;
   display: flex;
-  overflow-x: auto;
   gap: 20px;
-  padding: 20px 10px;
+  overflow-x: auto;
+  padding: 40px 10px;
   scroll-snap-type: x mandatory;
 }
 
+/* center line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--purple), var(--green));
+  z-index: 0;
+}
+
 .timeline-item {
+  position: relative;
   min-width: 260px;
-  background: #ffffff;
-  border: 2px solid var(--border);
-  border-top: 4px solid var(--primary);
+  background: #fff;
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 20px;
   scroll-snap-align: start;
-  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease;
 }
 
-.timeline-item:nth-child(even) {
-  border-top-color: var(--secondary);
+.timeline-item:hover {
+  transform: translateY(-5px);
+}
+
+/* animated dot */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--purple);
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 3px rgba(76, 29, 149, 0.2);
+  animation: pulse 2s infinite;
+}
+
+.timeline-item:nth-child(even)::before {
+  background: var(--green);
+  box-shadow: 0 0 0 3px rgba(6, 95, 70, 0.2);
+}
+
+@keyframes pulse {
+  0% { transform: translateX(-50%) scale(1); }
+  50% { transform: translateX(-50%) scale(1.15); }
+  100% { transform: translateX(-50%) scale(1); }
 }
 
 .timeline-date {
   font-weight: 600;
-  color: var(--primary);
   margin-bottom: 8px;
+  color: var(--purple);
 }
 
-/* LINKEDIN */
+/* CONNECT */
 .connect {
   text-align: center;
-  padding: 50px 20px;
+  padding: 60px 20px;
 }
 
 .connect img {
@@ -140,28 +174,6 @@ a:hover {
   <p class="subtitle">Research Associate | Science of Science | PhD (Completed)</p>
 </div>
 
-<!-- ABOUT -->
-<div class="section">
-  <h2>About</h2>
-  <div class="card">
-    <p>
-      I am a researcher at the University of Manchester working on science of science, innovation policy, and knowledge flows.
-      My work explores how scientific knowledge translates into sustainable technologies and informs public policy, particularly in green innovation and AI.
-    </p>
-  </div>
-</div>
-
-<!-- RESEARCH -->
-<div class="section">
-  <h2>Research Experience</h2>
-
-  <div class="card">
-    <strong>Research Associate</strong><br>
-    University of Manchester (2025–Present)<br><br>
-    Working on EPO-funded projects linking bibliometric and doctoral datasets to understand knowledge production and diffusion.
-  </div>
-</div>
-
 <!-- TIMELINE -->
 <div class="section">
   <h2>Academic Milestone Timeline</h2>
@@ -170,7 +182,7 @@ a:hover {
 
     <div class="timeline-item">
       <div class="timeline-date">2025–2026</div>
-      Research Associate in Science of Science at the University of Manchester
+      Research Associate in Science of Science, University of Manchester
     </div>
 
     <div class="timeline-item">
@@ -185,7 +197,7 @@ a:hover {
 
     <div class="timeline-item">
       <div class="timeline-date">2023–2024</div>
-      Research Assistant, MIOIR, AMBS
+      Research Assistant, MIOIR
     </div>
 
     <div class="timeline-item">
@@ -194,18 +206,18 @@ a:hover {
     </div>
 
     <div class="timeline-item">
-      <div class="timeline-date">2019–2020</div>
-      Research Internship in Innovation Studies
+      <div class="timeline-date">2022</div>
+      Doctoral research deepened in science of science methods
     </div>
 
     <div class="timeline-item">
-      <div class="timeline-date">2018</div>
-      Early research exposure in data science methods
+      <div class="timeline-date">2021</div>
+      Started PhD at Alliance Manchester Business School
     </div>
 
     <div class="timeline-item">
       <div class="timeline-date">2015</div>
-      MSc in Technology Management (Completed)
+      MSc in Technology Management completed
     </div>
 
     <div class="timeline-item">
@@ -215,7 +227,7 @@ a:hover {
 
     <div class="timeline-item">
       <div class="timeline-date">Early Career</div>
-      Developed foundational interest in science, policy, and data
+      Developed interest in data, policy, and innovation studies
     </div>
 
   </div>
@@ -225,13 +237,13 @@ a:hover {
 <div class="section">
   <h2>Research Interests</h2>
   <div class="card">
-    Science of science · Innovation policy · Green technologies · AI for science · Knowledge diffusion · Sustainability transitions
+    Science of Science · Innovation Policy · Green Technologies · AI for Science · Knowledge Diffusion · Sustainability Transitions
   </div>
 </div>
 
 <!-- CONNECT -->
 <div class="connect">
-  <h2>Connect</h2>
+  <h2>Connect with Me</h2>
   <a href="https://www.linkedin.com/">
     <img src="assets/linkedin.png">
   </a>
