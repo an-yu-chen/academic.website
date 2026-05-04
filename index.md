@@ -165,6 +165,30 @@ a:hover {
 .connect img:hover {
   transform: scale(1.05);
 }
+/* ===========================
+   MAP FIX (removes huge spacing)
+   =========================== */
+
+.map-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* This is the REAL fix for black/empty space */
+#map {
+  height: 420px;
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+/* remove any accidental extra spacing */
+.map-section h2 {
+  margin-bottom: 20px;
+}
 </style>
 
 <!-- HERO -->
@@ -249,10 +273,10 @@ a:hover {
   </a>
 </div>
 <!-- ACADEMIC MAP -->
-<div class="section">
+<div class="section map-section">
   <h2>Academic Network & Global Experience</h2>
 
-  <div id="map" style="height: 420px; border-radius: 14px; border: 1px solid #e5e7eb;"></div>
+  <div id="map"></div>
 </div>
 
 <!-- Leaflet Map Library -->
@@ -260,23 +284,37 @@ a:hover {
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
-var map = L.map('map').setView([25, 10], 2);
+var map = L.map('map').setView([30, 10], 2);
 
-// Clean academic tile layer
+// Base layer (clean academic style)
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
-// Markers (your academic journey)
+/* ===========================
+   ACADEMIC LOCATIONS
+   =========================== */
+
+// University of Manchester
 L.marker([53.4668, -2.2339]).addTo(map)
   .bindPopup("<b>University of Manchester</b><br>Research Associate");
 
+// Politecnico di Milano
 L.marker([45.4781, 9.2266]).addTo(map)
   .bindPopup("<b>Politecnico di Milano</b><br>Visiting Scholar");
 
+// National Tsing Hua University (Taiwan)
 L.marker([24.7873, 120.9915]).addTo(map)
   .bindPopup("<b>National Tsing Hua University</b><br>MSc Studies");
 
-// UI polish
+// Magdeburg, Germany
+L.marker([52.1205, 11.6276]).addTo(map)
+  .bindPopup("<b>Magdeburg, Germany</b><br>Research Collaboration / Academic Visits");
+
+// Shanghai, China
+L.marker([31.2304, 121.4737]).addTo(map)
+  .bindPopup("<b>Shanghai, China</b><br>Research & Academic Connections");
+
+// UI improvement
 map.scrollWheelZoom.disable();
 </script>
