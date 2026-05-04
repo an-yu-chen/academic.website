@@ -103,3 +103,15 @@ nav
         background: #f9fafb
         color: #8b1e3f
         padding-left: 1.2rem
+      
+/* FORCE CLEAN DROPDOWN BEHAVIOR */
+
+nav ul ul
+  display: none !important
+  position: absolute
+  top: 100%
+  left: 0
+
+nav li:hover > ul
+  display: flex !important
+  flex-direction: column
