@@ -162,21 +162,18 @@ a:hover {
   transition: 0.5s;
 }
 
-.connect img:hover {
-  transform: scale(1.05);
-}
 /* ===========================
    MAP FIX (removes huge spacing)
    =========================== */
 
 .map-section {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
 }
 
 /* This is the REAL fix for black/empty space */
 #map {
-  height: 420px;
+  height: 320px;
   width: 100%;
   border-radius: 14px;
   border: 1px solid #e5e7eb;
@@ -187,7 +184,7 @@ a:hover {
 
 /* remove any accidental extra spacing */
 .map-section h2 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 </style>
 
