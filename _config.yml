@@ -34,6 +34,16 @@ navigation:
       - {title: "Article 4: Learning Outcomes", file: "teaching-4.md"}
       - {title: "Article 5: Academic Mentorship", file: "teaching-5.md"}
 
+ - title: "Research Collaboration"
+    url: "#"
+    children:
+      - {title: "Article 1: International Research Partnerships", file: "collaboration-1.md"}
+      - {title: "Article 2: Interdisciplinary Collaboration", file: "collaboration-2.md"}
+      - {title: "Article 3: Industry and Policy Engagement", file: "collaboration-3.md"}
+      - {title: "Article 4: Academic Network Development", file: "collaboration-4.md"}
+      - {title: "Article 5: Future Collaborative Opportunities", file: "collaboration-5.md"}
+
+
   - title: "Social Responsibility"
     url: "#"
     children:
