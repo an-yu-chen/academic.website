@@ -163,7 +163,7 @@ a:hover {
 }
 
 .connect img:hover {
-  transform: scale(2.05);
+  transform: scale(1.05);
 }
 </style>
 
@@ -244,7 +244,7 @@ a:hover {
 <!-- CONNECT -->
 <div class="connect">
   <h2>Connect with Me</h2>
-  <a href="https://www.linkedin.com/">
+  <a href="https://www.linkedin.com/in/an-yu-chen">
     <img src="assets/linkedin.png">
   </a>
 </div>
