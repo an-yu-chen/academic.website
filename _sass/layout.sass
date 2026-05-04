@@ -1,46 +1,89 @@
+/* --- Header / Navigation Bar --- */
+header
+  background-color: #ffffff
+  border-bottom: 1px solid #e6eaf0
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05)
+  padding: 1.2rem 2.5rem
+  display: flex
+  align-items: center
+  justify-content: space-between
 
+/* Main Navigation */
+nav
+  display: flex
+  align-items: center
 
-/* --- Underline Hover Effect --- */
-nav a::after
+nav ul
+  list-style: none
+  margin: 0
+  padding: 0
+  display: flex
+  gap: 2.2rem
+
+nav li
+  position: relative
+
+/* Top-level Menu Links */
+nav a
+  text-decoration: none
+  color: #1f2d3d
+  font-weight: 600
+  font-size: 0.98rem
+  letter-spacing: 0.2px
+  padding: 0.75rem 0
+  display: block
+  transition: all 0.3s ease
+
+nav a:hover
+  color: #8b1e3f
+
+/* Elegant underline effect */
+nav > ul > li > a::after
   content: ""
-  position: absolute
-  left: 0
-  bottom: -4px
+  display: block
   width: 0
   height: 2px
-  background-color: #8b1e3f
+  background: #8b1e3f
   transition: width 0.3s ease
+  margin-top: 6px
 
-nav a:hover::after
+nav > ul > li > a:hover::after
   width: 100%
 
-/* --- Dropdown Menu --- */
+/* Dropdown Menu */
 nav li ul
   display: none
   position: absolute
   top: 100%
   left: 0
-  min-width: 280px
+  min-width: 300px
   background: #ffffff
-  border: 1px solid #eaeef2
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08)
-  border-radius: 8px
-  padding: 0.5em 0
+  border: 1px solid #e6eaf0
+  border-radius: 10px
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08)
+  padding: 0.5rem 0
   z-index: 999
   flex-direction: column
 
-nav li:hover ul
+/* Show dropdown on hover */
+nav li:hover > ul
   display: flex
 
 nav li ul li
   width: 100%
 
+/* Dropdown Links */
 nav li ul a
-  padding: 0.8em 1.2em
-  font-size: 0.95rem
+  padding: 0.85rem 1.2rem
+  font-size: 0.94rem
   font-weight: 500
+  color: #34495e
   white-space: nowrap
 
 nav li ul a:hover
-  background-color: #f8f9fb
+  background-color: #f8fafc
   color: #8b1e3f
+
+/* Smooth professional appearance */
+body
+  font-family: "Helvetica Neue", "Segoe UI", sans-serif
