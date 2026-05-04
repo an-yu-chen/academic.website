@@ -1,6 +1,33 @@
-/* ===========================
-   PROFESSIONAL NAV DROPDOWN FIX
-   =========================== */
+@import index, font, basic, layout, classes
+
+html
+  background: lighten($dark, 70%)
+  padding: 0 calc(38% - 22em)
+
+body
+  box-shadow: 0 0 .3em lighten($dark, 65%)
+
+body > header, body > footer
+  background: lighten($dark, 5%)
+  color: $light
+
+@media (min-width: 32em)
+  body > header, body > article, body > footer
+    padding: 1.75em calc(22% - 6em)
+
+@media (prefers-color-scheme: dark)
+  html
+    background: darken($dark, 4%)
+
+  body > header, body > footer
+    background: $dark
+
+  body, body > header, body > footer
+    box-shadow: 0 0 0 1px lighten($dark, 8%)
+
+/* =====================================
+   NAVIGATION DROPDOWN (SAFE ADDITION)
+   ===================================== */
 
 nav
   display: flex
@@ -42,7 +69,7 @@ nav
     a:hover:after
       width: 100%
 
-    /* dropdown container */
+    /* dropdown menu */
     ul
       display: none
       position: absolute
@@ -55,12 +82,16 @@ nav
       box-shadow: 0 10px 25px rgba(0,0,0,0.08)
       padding: 0.5rem 0
       z-index: 999
+      flex-direction: column
 
     /* show dropdown on hover */
     &:hover > ul
-      display: block
+      display: flex
 
     /* dropdown items */
+    ul li
+      width: 100%
+
     ul li a
       display: block
       padding: 0.6rem 1rem
