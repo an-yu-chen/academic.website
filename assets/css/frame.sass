@@ -1,27 +1,74 @@
----
----
+/* ===========================
+   PROFESSIONAL NAV DROPDOWN FIX
+   =========================== */
 
-@import index, font, basic, layout, classes
+nav
+  display: flex
+  justify-content: center
+  align-items: center
 
-html
-  background: lighten($dark, 70%)
-  padding: 0 calc(38% - 22em)
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+    display: flex
+    gap: 2.5rem
+    align-items: center
 
-body
-  box-shadow: 0 0 .3em lighten($dark, 65%)
+  li
+    position: relative
 
-body > header, body > footer
-  background: lighten($dark, 5%)
-  color: $light
+    a
+      text-decoration: none
+      color: inherit
+      font-weight: 500
+      padding: 0.5rem 0
+      display: inline-block
+      transition: 0.2s ease
 
-@media (min-width: 32em)
-  body > header, body > article, body > footer
-    padding: 1.75em calc(22% - 6em)
+      &:hover
+        color: #8b1e3f
 
-@media (prefers-color-scheme: dark)
-  html
-    background: darken($dark, 4%)
-  body > header, body > footer
-    background: $dark
-  body, body > header, body > footer
-    box-shadow: 0 0 0 1px lighten($dark, 8%)
+    /* underline effect */
+    a:after
+      content: ""
+      display: block
+      width: 0
+      height: 2px
+      background: #8b1e3f
+      transition: width 0.3s
+      margin-top: 4px
+
+    a:hover:after
+      width: 100%
+
+    /* dropdown container */
+    ul
+      display: none
+      position: absolute
+      top: 100%
+      left: 0
+      min-width: 240px
+      background: white
+      border: 1px solid rgba(0,0,0,0.08)
+      border-radius: 10px
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08)
+      padding: 0.5rem 0
+      z-index: 999
+
+    /* show dropdown on hover */
+    &:hover > ul
+      display: block
+
+    /* dropdown items */
+    ul li a
+      display: block
+      padding: 0.6rem 1rem
+      font-size: 0.9rem
+      white-space: nowrap
+      color: #374151
+
+      &:hover
+        background: #f9fafb
+        color: #8b1e3f
+        padding-left: 1.2rem
