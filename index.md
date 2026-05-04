@@ -154,16 +154,16 @@ a:hover {
 /* CONNECT */
 .connect {
   text-align: center;
-  padding: 60px 20px;
+  padding: 90px 50px;
 }
 
 .connect img {
-  width: 220px;
-  transition: 0.3s;
+  width: 550px;
+  transition: 0.5s;
 }
 
 .connect img:hover {
-  transform: scale(1.05);
+  transform: scale(2.05);
 }
 </style>
 
