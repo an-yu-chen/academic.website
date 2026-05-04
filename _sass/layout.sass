@@ -1,25 +1,46 @@
-/* --- Header / Navigation Bar --- */
-header
-  background-color: #f7f9fb      // light background
-  color: #FFC300                  // dark text
-  display: flex
-  align-items: center
-  justify-content: space-between
-  padding: 1em 2em
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1)
 
-nav
-  display: flex
-  gap: 1.5em
-  background-color: transparent
 
-nav a
-  color: #FFC300
-  text-decoration: none
+/* --- Underline Hover Effect --- */
+nav a::after
+  content: ""
+  position: absolute
+  left: 0
+  bottom: -4px
+  width: 0
+  height: 2px
+  background-color: #8b1e3f
+  transition: width 0.3s ease
+
+nav a:hover::after
+  width: 100%
+
+/* --- Dropdown Menu --- */
+nav li ul
+  display: none
+  position: absolute
+  top: 100%
+  left: 0
+  min-width: 280px
+  background: #ffffff
+  border: 1px solid #eaeef2
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08)
+  border-radius: 8px
+  padding: 0.5em 0
+  z-index: 999
+  flex-direction: column
+
+nav li:hover ul
+  display: flex
+
+nav li ul li
+  width: 100%
+
+nav li ul a
+  padding: 0.8em 1.2em
+  font-size: 0.95rem
   font-weight: 500
-  transition: color 0.3s ease, background-color 0.3s ease
+  white-space: nowrap
 
-nav a:hover
-  color: #f39c12                  // highlight color on hover
-  background-color: transparent
-  border-radius: 4px
+nav li ul a:hover
+  background-color: #f8f9fb
+  color: #8b1e3f
