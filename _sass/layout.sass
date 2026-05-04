@@ -1,49 +1,55 @@
 
 
 /* =====================================
-   ELEGANT ACADEMIC NAVIGATION BAR
-   Clean spacing + beautiful dropdown
+   CLEAN SPACED PROFESSIONAL NAVIGATION
+   Based on your original layout, improved
    ===================================== */
 
+/* --- Header / Navigation Bar --- */
 header
-  background: #ffffff
-  border-bottom: 1px solid #e8edf3
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04)
-  padding: 1.4rem 3.5rem
+  background-color: #ffffff
+  color: #2c3e50
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 1.2em 3.5em
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06)
+  border-bottom: 1px solid #e9edf2
 
+/* --- Navigation Layout --- */
 nav
   display: flex
-  justify-content: center
   align-items: center
+  gap: 4em
+  background-color: transparent
 
-/* Main menu spacing fix */
 nav ul
+  display: flex
+  align-items: center
+  gap: 4em
   list-style: none
   margin: 0
   padding: 0
-  display: flex
-  align-items: center
-  gap: 4rem
 
 nav li
   position: relative
 
-/* Main category links */
+/* --- Main Navigation Links --- */
 nav > ul > li > a
-  display: block
-  padding: 1rem 0
+  color: #2c3e50
   text-decoration: none
-  font-size: 1.02rem
   font-weight: 600
-  letter-spacing: 0.4px
-  color: #243447
+  font-size: 1rem
+  letter-spacing: 0.3px
+  padding: 1em 0
+  display: block
   transition: all 0.3s ease
   position: relative
 
 nav > ul > li > a:hover
-  color: #7c1f3a
+  color: #8b1e3f
 
-/* Elegant underline */
+/* underline effect */
 nav > ul > li > a::after
   content: ""
   position: absolute
@@ -51,51 +57,46 @@ nav > ul > li > a::after
   bottom: 0
   width: 0
   height: 2px
-  background: #7c1f3a
+  background-color: #8b1e3f
   transition: width 0.3s ease
 
 nav > ul > li > a:hover::after
   width: 100%
 
-/* Dropdown container */
+/* --- Dropdown Menu --- */
 nav li ul
   display: none
   position: absolute
   top: 100%
   left: 0
-  min-width: 320px
+  min-width: 300px
   background: #ffffff
-  border: 1px solid #e8edf3
-  border-radius: 12px
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08)
-  padding: 0.8rem 0
+  border: 1px solid #e6ebf0
+  border-radius: 10px
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08)
+  padding: 0.6em 0
   z-index: 999
   flex-direction: column
   gap: 0
 
-/* Hover dropdown */
 nav li:hover > ul
   display: flex
 
 nav li ul li
   width: 100%
 
-/* Dropdown article links */
+/* --- Dropdown Article Links --- */
 nav li ul a
-  display: block
-  padding: 0.9rem 1.4rem
-  font-size: 0.95rem
-  font-weight: 500
-  color: #3a4a5d
+  color: #34495e
   text-decoration: none
+  font-weight: 500
+  font-size: 0.95rem
+  padding: 0.85em 1.4em
+  display: block
   white-space: nowrap
   transition: all 0.25s ease
 
 nav li ul a:hover
-  background: #f7f9fc
-  color: #7c1f3a
-  padding-left: 1.7rem
-
-body
-  font-family: "Helvetica Neue", "Segoe UI", sans-serif
-  color: #243447
+  background-color: #f8fafc
+  color: #8b1e3f
+  padding-left: 1.7em
