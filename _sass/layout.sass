@@ -1,11 +1,8 @@
-
-
 /* =====================================
-   CLEAN SPACED PROFESSIONAL NAVIGATION
-   Based on your original layout, improved
+   CLEAN LAYOUT (NO NAVIGATION HERE)
    ===================================== */
 
-/* --- Header / Navigation Bar --- */
+/* Header layout only */
 header
   background-color: #ffffff
   color: #2c3e50
@@ -16,87 +13,37 @@ header
   box-shadow: 0 4px 12px rgba(0,0,0,0.06)
   border-bottom: 1px solid #e9edf2
 
-/* --- Navigation Layout --- */
-nav
-  display: flex
-  align-items: center
-  gap: 4em
-  background-color: transparent
-
-nav ul
-  display: flex
-  align-items: center
-  gap: 4em
-  list-style: none
+/* Main page container spacing */
+body
   margin: 0
   padding: 0
 
-nav li
-  position: relative
+/* Article / content area */
+article
+  max-width: 900px
+  margin: 0 auto
+  padding: 2rem 1.5rem
+  line-height: 1.65
+  color: #1f2937
 
-/* --- Main Navigation Links --- */
-nav > ul > li > a
-  color: #2c3e50
-  text-decoration: none
+/* Headings */
+h1, h2, h3
+  color: #111827
+
+h1
+  font-size: 2.2rem
   font-weight: 600
-  font-size: 1rem
-  letter-spacing: 0.3px
-  padding: 1em 0
-  display: block
-  transition: all 0.3s ease
-  position: relative
 
-nav > ul > li > a:hover
+h2
+  font-size: 1.4rem
+  margin-top: 2rem
+  border-bottom: 1px solid #e5e7eb
+  padding-bottom: 0.4rem
+
+/* Links (global safe style) */
+a
   color: #8b1e3f
-
-/* underline effect */
-nav > ul > li > a::after
-  content: ""
-  position: absolute
-  left: 0
-  bottom: 0
-  width: 0
-  height: 2px
-  background-color: #8b1e3f
-  transition: width 0.3s ease
-
-nav > ul > li > a:hover::after
-  width: 100%
-
-/* --- Dropdown Menu --- */
-nav li ul
-  display: none
-  position: absolute
-  top: 100%
-  left: 0
-  min-width: 300px
-  background: #ffffff
-  border: 1px solid #e6ebf0
-  border-radius: 10px
-  box-shadow: 0 10px 24px rgba(0,0,0,0.08)
-  padding: 0.6em 0
-  z-index: 999
-  flex-direction: column
-  gap: 0
-
-nav li:hover > ul
-  display: flex
-
-nav li ul li
-  width: 100%
-
-/* --- Dropdown Article Links --- */
-nav li ul a
-  color: #34495e
   text-decoration: none
-  font-weight: 500
-  font-size: 0.95rem
-  padding: 0.85em 1.4em
-  display: block
-  white-space: nowrap
-  transition: all 0.25s ease
 
-nav li ul a:hover
-  background-color: #f8fafc
-  color: #8b1e3f
-  padding-left: 1.7em
+a:hover
+  text-decoration: underline
