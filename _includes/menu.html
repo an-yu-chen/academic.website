@@ -1,3 +1,5 @@
+  
+
 <nav>
   <ul>
     {%- for item in include.menu -%}
@@ -6,8 +8,14 @@
       {%- assign title = item.title | default: node.title -%}
 
       <li>
-        <a href="{{ url | relative_url }}">
-          {{ title }}
+        <a href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
+          {%- if item.icon -%}
+            <svg aria-label="{{ title }}" class="icon">
+              <use xlink:href="{{ '/assets/fontawesome/icons.svg' | relative_url }}#{{ item.icon }}"></use>
+            </svg>
+          {%- else -%}
+            {{ title }}
+          {%- endif -%}
         </a>
 
         {%- if item.children -%}
@@ -29,3 +37,5 @@
     {%- endfor -%}
   </ul>
 </nav>
+
+ 
