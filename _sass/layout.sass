@@ -1,89 +1,101 @@
-/* --- Header / Navigation Bar --- */
-header
-  background-color: #ffffff
-  border-bottom: 1px solid #e6eaf0
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05)
-  padding: 1.2rem 2.5rem
-  display: flex
-  align-items: center
-  justify-content: space-between
 
-/* Main Navigation */
+
+/* =====================================
+   ELEGANT ACADEMIC NAVIGATION BAR
+   Clean spacing + beautiful dropdown
+   ===================================== */
+
+header
+  background: #ffffff
+  border-bottom: 1px solid #e8edf3
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04)
+  padding: 1.4rem 3.5rem
+
 nav
   display: flex
+  justify-content: center
   align-items: center
 
+/* Main menu spacing fix */
 nav ul
   list-style: none
   margin: 0
   padding: 0
   display: flex
-  gap: 2.2rem
+  align-items: center
+  gap: 4rem
 
 nav li
   position: relative
 
-/* Top-level Menu Links */
-nav a
-  text-decoration: none
-  color: #1f2d3d
-  font-weight: 600
-  font-size: 0.98rem
-  letter-spacing: 0.2px
-  padding: 0.75rem 0
+/* Main category links */
+nav > ul > li > a
   display: block
+  padding: 1rem 0
+  text-decoration: none
+  font-size: 1.02rem
+  font-weight: 600
+  letter-spacing: 0.4px
+  color: #243447
   transition: all 0.3s ease
+  position: relative
 
-nav a:hover
-  color: #8b1e3f
+nav > ul > li > a:hover
+  color: #7c1f3a
 
-/* Elegant underline effect */
+/* Elegant underline */
 nav > ul > li > a::after
   content: ""
-  display: block
+  position: absolute
+  left: 0
+  bottom: 0
   width: 0
   height: 2px
-  background: #8b1e3f
+  background: #7c1f3a
   transition: width 0.3s ease
-  margin-top: 6px
 
 nav > ul > li > a:hover::after
   width: 100%
 
-/* Dropdown Menu */
+/* Dropdown container */
 nav li ul
   display: none
   position: absolute
   top: 100%
   left: 0
-  min-width: 300px
+  min-width: 320px
   background: #ffffff
-  border: 1px solid #e6eaf0
-  border-radius: 10px
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08)
-  padding: 0.5rem 0
+  border: 1px solid #e8edf3
+  border-radius: 12px
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08)
+  padding: 0.8rem 0
   z-index: 999
   flex-direction: column
+  gap: 0
 
-/* Show dropdown on hover */
+/* Hover dropdown */
 nav li:hover > ul
   display: flex
 
 nav li ul li
   width: 100%
 
-/* Dropdown Links */
+/* Dropdown article links */
 nav li ul a
-  padding: 0.85rem 1.2rem
-  font-size: 0.94rem
+  display: block
+  padding: 0.9rem 1.4rem
+  font-size: 0.95rem
   font-weight: 500
-  color: #34495e
+  color: #3a4a5d
+  text-decoration: none
   white-space: nowrap
+  transition: all 0.25s ease
 
 nav li ul a:hover
-  background-color: #f8fafc
-  color: #8b1e3f
+  background: #f7f9fc
+  color: #7c1f3a
+  padding-left: 1.7rem
 
-/* Smooth professional appearance */
 body
   font-family: "Helvetica Neue", "Segoe UI", sans-serif
+  color: #243447
