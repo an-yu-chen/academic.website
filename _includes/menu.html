@@ -1,10 +1,42 @@
+
+
 <nav>
-{%- for item in include.menu -%}
-  {%- assign node = site.pages | where: "name", item.file | first -%}
-  {%- assign url = item.url | default: node.url -%}
-  {%- assign title = item.title | default: node.title -%}
-  <a href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
-    {%- if item.icon -%}<svg aria-label="{{ title }}" class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ item.icon }}"></use></svg>{%- else -%}{{ title }}{%- endif -%}
-  </a>
-{%- endfor -%}
+  <ul>
+    {%- for item in include.menu -%}
+      {%- assign node = site.pages | where: "name", item.file | first -%}
+      {%- assign url = item.url | default: node.url -%}
+      {%- assign title = item.title | default: node.title -%}
+
+      <li>
+        <a href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
+          {%- if item.icon -%}
+            <svg aria-label="{{ title }}" class="icon">
+              <use xlink:href="{{ '/assets/fontawesome/icons.svg' | relative_url }}#{{ item.icon }}"></use>
+            </svg>
+          {%- else -%}
+            {{ title }}
+          {%- endif -%}
+        </a>
+
+        {%- if item.children -%}
+          <ul>
+            {%- for child in item.children -%}
+              {%- assign child_node = site.pages | where: "name", child.file | first -%}
+              {%- assign child_url = child.url | default: child_node.url -%}
+              {%- assign child_title = child.title | default: child_node.title -%}
+
+              <li>
+                <a href="{{ child_url | relative_url }}">
+                  {{ child_title }}
+                </a>
+              </li>
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
 </nav>
+
+# CSS must be placed inside your style.scss or layout.sass
+# to make the dropdown beautiful and professional.
