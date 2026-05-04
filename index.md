@@ -265,6 +265,7 @@ a:hover {
 <!-- CONNECT -->
 <div class="connect">
   <h2>Connect with Me</h2>
+   <p>If you'd like to get in contact with me you can find my LinkedIn or via my email</p>
   <a href="https://www.linkedin.com/in/an-yu-chen">
     <img src="assets/linkedin.png">
   </a>
