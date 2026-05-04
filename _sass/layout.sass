@@ -1,49 +1,25 @@
-/* =====================================
-   CLEAN LAYOUT (NO NAVIGATION HERE)
-   ===================================== */
-
-/* Header layout only */
+/* --- Header / Navigation Bar --- */
 header
-  background-color: #ffffff
-  color: #2c3e50
+  background-color: #f7f9fb      // light background
+  color: #FFC300                  // dark text
   display: flex
   align-items: center
   justify-content: space-between
-  padding: 1.2em 3.5em
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06)
-  border-bottom: 1px solid #e9edf2
+  padding: 1em 2em
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1)
 
-/* Main page container spacing */
-body
-  margin: 0
-  padding: 0
+nav
+  display: flex
+  gap: 1.5em
+  background-color: transparent
 
-/* Article / content area */
-article
-  max-width: 900px
-  margin: 0 auto
-  padding: 2rem 1.5rem
-  line-height: 1.65
-  color: #1f2937
-
-/* Headings */
-h1, h2, h3
-  color: #111827
-
-h1
-  font-size: 2.2rem
-  font-weight: 600
-
-h2
-  font-size: 1.4rem
-  margin-top: 2rem
-  border-bottom: 1px solid #e5e7eb
-  padding-bottom: 0.4rem
-
-/* Links (global safe style) */
-a
-  color: #8b1e3f
+nav a
+  color: #FFC300
   text-decoration: none
+  font-weight: 500
+  transition: color 0.3s ease, background-color 0.3s ease
 
-a:hover
-  text-decoration: underline
+nav a:hover
+  color: #f39c12                  // highlight color on hover
+  background-color: transparent
+  border-radius: 4px
