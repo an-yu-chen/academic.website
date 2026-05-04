@@ -154,7 +154,7 @@ a:hover {
 /* CONNECT */
 .connect {
   text-align: center;
-  padding: 90px 50px;
+  padding: 40px 10px;
 }
 
 .connect img {
@@ -167,8 +167,8 @@ a:hover {
    =========================== */
 
 .map-section {
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 /* This is the REAL fix for black/empty space */
