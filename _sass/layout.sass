@@ -1,39 +1,38 @@
 /* --- Header / Navigation Bar --- */
 header
-  background-color: #f7f9fb      // light background
-  color: #FFC300                  // dark text
+  background-color: #f7f9fb
+  color: #FFC300
   display: flex
   align-items: center
   justify-content: space-between
   padding: 1em 2em
   box-shadow: 0 2px 6px rgba(0,0,0,0.1)
 
+/* MAIN NAV */
 nav
   display: flex
-  gap: 1.5em
   background-color: transparent
 
-nav a
-  color: #FFC300
-  text-decoration: none
-  font-weight: 500
-  transition: color 0.3s ease, background-color 0.3s ease
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+    display: flex
+    gap: 1.5em
 
-nav a:hover
-  color: #f39c12                  // highlight color on hover
-  background-color: transparent
-  border-radius: 4px
-nav ul
-  list-style: none
-  margin: 0
-  padding: 0
-  display: flex
-  gap: 1.5em
+  li
+    position: relative
 
-nav li
-  position: relative
+  a
+    color: #FFC300
+    text-decoration: none
+    font-weight: 500
+    transition: color 0.3s ease, background-color 0.3s ease
 
-/* hide dropdown by default */
+    &:hover
+      color: #f39c12
+
+/* DROPDOWN */
 nav li ul
   display: none
   position: absolute
@@ -45,18 +44,16 @@ nav li ul
   border-radius: 8px
   padding: 0.5em 0
   z-index: 999
+  flex-direction: column
 
-/* show dropdown on hover */
 nav li:hover > ul
-  display: block
+  display: flex
 
-/* dropdown links */
 nav li ul a
   display: block
   padding: 0.6em 1em
   color: #333
-  background: transparent
 
-nav li ul a:hover
-  background: #f4f6f8
-  color: #f39c12
+  &:hover
+    background: #f4f6f8
+    color: #f39c12
