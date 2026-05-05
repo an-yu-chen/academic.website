@@ -170,7 +170,7 @@ a:hover {
    MAP FIX (removes huge spacing)
    =========================== */
 
-.map-section {
+.section.map-section {
   padding-top: 0px;
   padding-bottom: 10px;
 }
