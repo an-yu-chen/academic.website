@@ -1,3 +1,6 @@
+---
+---
+
 @import index, font, basic, layout, classes
 
 html
@@ -25,3 +28,13 @@ body > header, body > footer
   body, body > header, body > footer
     box-shadow: 0 0 0 1px lighten($dark, 8%)
 
+# IMPORTANT:
+# Keep navigation dropdown styling ONLY inside _sass/layout.sass
+# Do NOT add nav styling here.
+# frame.sass should only control:
+# - page frame
+# - spacing
+# - shadows
+# - overall layout shell
+#
+# This prevents the broken vertical stacked menu issue.
