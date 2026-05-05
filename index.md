@@ -25,7 +25,7 @@ body {
 /* HERO */
 .hero-section {
   text-align: center;
-  padding: 40px 20px 40px;
+  padding: 20px 10px 10px;
 }
 
 .profile-pic {
@@ -39,7 +39,7 @@ body {
 
 h1 {
   font-size: 3rem;
-  margin: 20px 0 5px;
+  margin: 10px 0 5px;
 }
 
 .subtitle {
