@@ -25,7 +25,7 @@ body {
 /* HERO */
 .hero-section {
   text-align: center;
-  padding: 80px 20px 40px;
+  padding: 40px 20px 40px;
 }
 
 .profile-pic {
@@ -49,14 +49,14 @@ h1 {
 
 /* SECTION */
 .section {
-  padding: 60px 20px;
+  padding: 35px 20px;
   max-width: 1000px;
   margin: 0 auto;
 }
 
 h2 {
   font-size: 1.8rem;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   color: var(--purple);
 }
 
@@ -86,7 +86,7 @@ a:hover {
   display: flex;
   gap: 20px;
   overflow-x: auto;
-  padding: 40px 10px;
+  padding: 20px 10px;
   scroll-snap-type: x mandatory;
 }
 
@@ -154,7 +154,7 @@ a:hover {
 /* CONNECT */
 .connect {
   text-align: center;
-  padding: 40px 10px;
+  padding: 20px 10px;
 }
 
 .connect img {
