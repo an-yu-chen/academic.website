@@ -154,7 +154,7 @@ a:hover {
 /* CONNECT */
 .connect {
   text-align: center;
-  padding: 20px 10px;
+  padding: 20px 10px 0px;
 }
 
 .connect img {
@@ -171,7 +171,7 @@ a:hover {
    =========================== */
 
 .map-section {
-  padding-top: 5px;
+  padding-top: 0px;
   padding-bottom: 10px;
 }
 
