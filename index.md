@@ -262,7 +262,7 @@ a:hover {
 <div class="section">
   <h2>Research Interests</h2>
   <div class="card">
-    Science of Science · Innovation Policy · Green Technologies · AI for Science · Knowledge Diffusion · Sustainability Transitions
+    Economics of Innovation · Science, Technology & Innovation Policy · Green Technologies · AI for Science · Knowledge Systems & Management · Sustainability Transitions · Digital Transformation of Science
   </div>
 </div>
 
