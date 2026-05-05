@@ -1,59 +1,96 @@
-/* --- Header / Navigation Bar --- */
+/* =====================================
+   PROFESSIONAL ACADEMIC NAVIGATION
+   ===================================== */
+
 header
-  background-color: #f7f9fb
-  color: #FFC300
+  background-color: #f8fafc
+  color: #1f2937
   display: flex
   align-items: center
   justify-content: space-between
-  padding: 1em 2em
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1)
+  padding: 1.2em 2.5em
+  border-bottom: 1px solid #e5e7eb
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04)
 
-/* MAIN NAV */
+/* MAIN NAVIGATION */
+
 nav
   display: flex
-  background-color: transparent
+  align-items: center
+  justify-content: center
+  background: transparent
 
   ul
     list-style: none
     margin: 0
     padding: 0
     display: flex
-    gap: 1.5em
+    gap: 2.2rem
+    align-items: center
 
   li
     position: relative
 
   a
-    color: #FFC300
+    color: #1f2937
     text-decoration: none
     font-weight: 500
-    transition: color 0.3s ease, background-color 0.3s ease
+    font-size: 0.95rem
+    letter-spacing: 0.2px
+    padding: 0.5rem 0
+    display: inline-block
+    transition: all 0.25s ease
 
     &:hover
-      color: #f39c12
+      color: #8b1e3f
 
-/* DROPDOWN */
+/* underline effect */
+
+nav li > a:after
+  content: ""
+  display: block
+  width: 0
+  height: 2px
+  background: #8b1e3f
+  transition: width 0.3s ease
+  margin-top: 4px
+
+nav li > a:hover:after
+  width: 100%
+
+/* DROPDOWN MENU */
+
 nav li ul
   display: none
   position: absolute
   top: 100%
   left: 0
   background: #ffffff
-  min-width: 220px
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1)
-  border-radius: 8px
-  padding: 0.5em 0
+  min-width: 260px
+  border: 1px solid #e5e7eb
+  border-radius: 10px
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08)
+  padding: 0.5rem 0
   z-index: 999
-  flex-direction: column
+
+/* THIS is the key fix */
 
 nav li:hover > ul
-  display: flex
+  display: block
+
+/* dropdown links */
+
+nav li ul li
+  width: 100%
 
 nav li ul a
   display: block
-  padding: 0.6em 1em
-  color: #333
+  padding: 0.7rem 1rem
+  font-size: 0.9rem
+  color: #374151
+  white-space: nowrap
 
   &:hover
-    background: #f4f6f8
-    color: #f39c12
+    background: #f9fafb
+    color: #8b1e3f
+    padding-left: 1.2rem
