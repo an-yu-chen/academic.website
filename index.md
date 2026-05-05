@@ -203,60 +203,60 @@ a:hover {
 <div class="section">
   <h2>Academic Milestone Timeline</h2>
 
-  <div class="timeline">
+  
+<div class="timeline">
 
-    <div class="timeline-item">
-      <div class="timeline-date">2025–2026</div>
-      Research Associate in Science of Science, University of Manchester
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-date">2021–2025</div>
-      PhD in Science, Technology and Innovation Policy (Completed)
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-date">March 2025</div>
-      Visiting Scholar, Politecnico di Milano
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-date">2023–2024</div>
-      Research Assistant, MIOIR
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-date">2023</div>
-      Teaching Assistant – Database Systems
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-date">2022</div>
-      Doctoral research deepened in science of science methods
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-date">2021</div>
-      Started PhD at Alliance Manchester Business School
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-date">2015</div>
-      MSc in Technology Management completed
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-date">2013–2015</div>
-      Graduate studies in Business Administration
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-date">Early Career</div>
-      Developed interest in data, policy, and innovation studies
-    </div>
-
+  <div class="timeline-item">
+    <div class="timeline-date">2025–2026</div>
+    Research Associate in Science of Science, University of Manchester
   </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2021–2025</div>
+    PhD in Science, Technology and Innovation Policy (Completed)
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2018–2020</div>
+    Assistant Editor, Taiwan Hsinchu Industry and Management Forum (Innovation journal publication support and editorial work)
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2018</div>
+    First academic conference presentation: PICMET (Portland International Conference on Management of Engineering and Technology), Honolulu, USA
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2017–2018</div>
+    Research Assistant, Government Science and Technology Policy Projects (MOST, Taiwan)
+    <br>• Analysis of national S&T policy frameworks
+    <br>• Evaluation of Taiwan’s science and technology development plans
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2016–2017</div>
+    Booking.com — Industry Experience (E-commerce & Tourism Analytics)
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2015</div>
+    DAAD Research Internship, Otto-von-Guericke University Magdeburg
+    <br>Focus: Human-centered design and emotional product development
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">MSc</div>
+    MSc in Technology Management, National Tsing Hua University (Institute of Technology Management)
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">Early Academic Formation</div>
+    Bachelor’s studies in Economics (Arts & Economics background)
+    <br>Developed early interest in data, policy, and innovation systems
+  </div>
+
 </div>
+ 
 
 <!-- RESEARCH INTERESTS -->
 <div class="section">
