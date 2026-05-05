@@ -222,15 +222,15 @@ a:hover {
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-date">2018</div>
-    First academic conference presentation: PICMET (Portland International Conference on Management of Engineering and Technology), Honolulu, USA
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-date">2017–2018</div>
+    <div class="timeline-date">2017–2020</div>
     Research Assistant, Government Science and Technology Policy Projects (MOST, Taiwan)
     <br>• Analysis of national S&T policy frameworks
     <br>• Evaluation of Taiwan’s science and technology development plans
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2018</div>
+    First academic conference presentation: PICMET (Portland International Conference on Management of Engineering and Technology), Honolulu, USA
   </div>
 
   <div class="timeline-item">
