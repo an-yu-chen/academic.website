@@ -158,12 +158,12 @@ a:hover {
 }
 
 .connect img {
-  width: 550px;
+  width: 330px;
   transition: 0.5s;
 }
   
 .connect img:hover {
-  transform: scale(1.04);
+  transform: scale(1.10);
 }
 
 /* ===========================
@@ -171,8 +171,8 @@ a:hover {
    =========================== */
 
 .map-section {
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 /* This is the REAL fix for black/empty space */
@@ -188,7 +188,7 @@ a:hover {
 
 /* remove any accidental extra spacing */
 .map-section h2 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 </style>
 
