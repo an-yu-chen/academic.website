@@ -161,6 +161,10 @@ a:hover {
   width: 550px;
   transition: 0.5s;
 }
+  
+.connect img:hover {
+  transform: scale(1.04);
+}
 
 /* ===========================
    MAP FIX (removes huge spacing)
