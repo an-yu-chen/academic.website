@@ -15,6 +15,8 @@ This is something I must emphasise: there is still an overall paucity of researc
 
 Let me reflect on global and systemic change for a moment.
 
+Mission-oriented innovation systems add another layer to this discussion. Rather than treating innovation policy as neutral or purely facilitative, this perspective emphasises the role of public institutions in actively shaping and directing innovation towards collective goals such as climate neutrality, health resilience, and digital transformation (Mazzucato, 2018). In this sense, innovation systems are not only networked, but purpose-driven, where directionality becomes as important as connectivity.
+
 Throughout the 2000s, in the era of globalisation, scientific activities increasingly aimed for international connections between disciplines.
 
 In the lights of all that, I began to see innovation systems as inherently networked rather than hierarchical.
@@ -36,3 +38,5 @@ Which I can see more clearly now through large-scale empirical work.
 ## References  
 
 Flanagan, K., & Uyarra, E. (2016). Four dangers in innovation policy studies–and how to avoid them. Industry and Innovation, 23(2), 177-188.
+
+Mazzucato, M. (2018). Mission-oriented innovation policies: challenges and opportunities. Industrial and corporate change, 27(5), 803-815.
