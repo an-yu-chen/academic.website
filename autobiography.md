@@ -266,7 +266,7 @@ body {
     </p>
 
     <div class="quote-line">
-      “Knowledge becomes most meaningful when it creates progress for society.”
+      “The roots of education are bitter, but the fruit is sweet.”~ Aristotle
     </div>
 
     <p>
