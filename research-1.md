@@ -55,18 +55,8 @@ Take the world’s greatest challenges—climate change, inequality, and digital
 
 AI becomes a major challenge of our time, particularly because it requires coordination across scientific, political, and technological systems simultaneously (IPCC, 2023; Kaack et al., 2022).
 
-## Reflection: AI as infrastructure, not just a tool
-
-The real reason AI matters is not simply automation or efficiency.
-
-It is because AI is becoming part of the infrastructure of knowledge itself—shaping what is seen, measured, and acted upon.
+The real reason AI matters is not simply automation or efficiency. It might be as well that AI is becoming part of the infrastructure of knowledge itself—shaping what is seen, measured, and acted upon.
 
 However, those new technologies make it harder to control, particularly when they are embedded in high-stakes systems such as climate governance or scientific funding allocation.
 
-And because of that, we need more careful, structured thinking about how AI is governed within research and policy systems.
-
-## Closing reflection
-
-That’s precisely why I’m interested in understanding how research systems evolve under the combined pressure of technological acceleration and climate urgency.
-
-In various issues in between theory and application, the challenge is not only innovation—but alignment between knowledge production and societal need.
+And because of that, we need more careful, structured thinking about how AI is governed within research and policy systems. In various issues in between theory and application, the challenge is not only innovation—but alignment between knowledge production and societal need.
