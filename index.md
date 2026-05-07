@@ -190,6 +190,48 @@ a:hover {
 .map-section h2 {
   margin-bottom: 5px;
 }
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin: 18px 0 10px;
+  flex-wrap: wrap;
+}
+
+/* base button style */
+.btn {
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.25s ease;
+  border: 1px solid transparent;
+}
+
+/* CV button (primary) */
+.btn-primary {
+  background: #1f2937;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background: #111827;
+  transform: translateY(-2px);
+}
+
+/* Autobiography button (secondary) */
+.btn-secondary {
+  background: transparent;
+  color: #1f2937;
+  border: 1px solid #d1d5db;
+}
+
+.btn-secondary:hover {
+  background: #f3f4f6;
+  transform: translateY(-2px);
+}
 </style>
 
 <!-- HERO -->
@@ -198,7 +240,17 @@ a:hover {
   <h1>An Yu Chen</h1>
   <p class="subtitle">Research Associate | Science of Science | PhD (Completed)</p>
 </div>
+<div class="action-buttons">
 
+  <a href="assets/CV.pdf" target="_blank" class="btn btn-primary">
+  View CV
+  </a>
+
+  <a href="/autobiography" class="btn btn-secondary">
+    Autobiography
+  </a>
+
+</div>
 <!-- TIMELINE -->
 <div class="section">
   <h2>Academic Milestone Timeline</h2>
