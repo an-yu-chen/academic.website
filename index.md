@@ -256,7 +256,7 @@ I am currently working on research projects related to innovation policy, sustai
   View CV
   </a>
 
-  <a href="/autobiography" class="btn btn-secondary">
+  <a href="https://an-yu-chen.github.io/academic.website/autobiography/" class="btn btn-secondary">
     Autobiography
   </a>
 
