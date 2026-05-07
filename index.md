@@ -46,6 +46,13 @@ h1 {
   font-size: 1.2rem;
   color: var(--muted);
 }
+.intro-text {
+  max-width: 760px;
+  margin: 18px auto 0;
+  font-size: 1.02rem;
+  color: #4b5563;
+  line-height: 1.9;
+}
 
 /* SECTION */
 .section {
@@ -238,7 +245,10 @@ a:hover {
 <div class="hero-section">
   <img src="assets/profile_picture.jpg" class="profile-pic">
   <h1>An Yu Chen</h1>
-  <p class="subtitle">Research Associate | Science of Science | PhD (Completed)</p>
+  <p class="subtitle">Innovation Policy & Sustainability Research | Science of Science | PhD in Science, Technology and Innovation Policy (Completed)</p>
+  <p class="intro-text">
+I am currently working on research projects related to innovation policy, sustainability, environmental economics, and the management of science and technology. My research at the Bernal Institute examined the use and exchange of operant resources among governments, academic institutions, and private firms, drawing upon data from sources including Web of Science, Scopus, and USPTO databases. I aim to continue making a positive impact through excellent research and teaching. Please explore the Research and Teaching sections in the menu for further information.
+  </p>
 </div>
 <div class="action-buttons">
 
