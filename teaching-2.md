@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: post
 title: "Classroom and Online Teaching Experience"
-date: 2026-05-07
 ---
 
 # Classroom and Online Teaching Experience
