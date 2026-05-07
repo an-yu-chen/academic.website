@@ -19,11 +19,11 @@ navigation:
   - title: "Research Pipeline"
     url: "#"
     children:
-      - {title: "Article 1: Research Vision and Scope", file: "research-1.md"}
-      - {title: "Article 2: Methodological Framework", file: "research-2.md"}
-      - {title: "Article 3: Empirical Strategy", file: "research-3.md"}
-      - {title: "Article 4: Findings and Insights", file: "research-4.md"}
-      - {title: "Article 5: Future Research Directions", file: "research-5.md"}
+      - {title: "AI and Knowledge Systems", file: "research-1.md"}
+      - {title: "Mission-Oriented Innovation", file: "research-2.md"}
+      - {title: "Science–Technology Linkages", file: "research-3.md"}
+      - {title: "Knowledge Infrastructure and Policy", file: "research-4.md"}
+      - {title: "Gender and Knowledge Flow", file: "research-5.md"}
 
   - title: "Teaching"
     url: "#"
