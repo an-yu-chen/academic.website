@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: post
 title: "Teaching Philosophy: Why Teaching Speaks to Me"
-permalink: /teaching-philosophy/
 ---
 
 # Teaching Philosophy: Why Teaching Speaks to Me
