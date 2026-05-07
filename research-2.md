@@ -1,6 +1,7 @@
+---
 layout: post
 title: "STI Policy, Innovation Systems and Network Dynamics"
-
+---
 # STI Policy, Innovation Systems and Network Dynamics
 
 Let me start with STI policy. The real reason was my growing interest in how institutional frameworks shape scientific collaboration.
