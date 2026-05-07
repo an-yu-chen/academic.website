@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: "Teaching Philosophy: Why Teaching Speaks to Me"
-date: 2026-05-07
+permalink: /teaching-philosophy/
 ---
 
 # Teaching Philosophy: Why Teaching Speaks to Me
