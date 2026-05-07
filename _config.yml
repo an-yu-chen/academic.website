@@ -28,11 +28,11 @@ navigation:
   - title: "Teaching"
     url: "#"
     children:
-      - {title: "Article 1: Teaching Philosophy", file: "teaching-1.md"}
-      - {title: "Article 2: Classroom Innovation", file: "teaching-2.md"}
-      - {title: "Article 3: Student Engagement", file: "teaching-3.md"}
-      - {title: "Article 4: Learning Outcomes", file: "teaching-4.md"}
-      - {title: "Article 5: Academic Mentorship", file: "teaching-5.md"}
+      - {title: "Teaching Philosophy", file: "teaching-1.md"}
+      - {title: "Classroom Innovation", file: "teaching-2.md"}
+      - {title: "Student Engagement", file: "teaching-3.md"}
+      - {title: "Professional Development and Communication", file: "teaching-4.md"}
+      - {title: "Teaching Vision", file: "teaching-5.md"}
 
 
   - title: "Social Responsibility"
