@@ -257,8 +257,8 @@ I am currently working on research projects related to innovation policy, sustai
   </a>
 
   <a href="https://an-yu-chen.github.io/academic.website/autobiography/" class="btn btn-secondary">
-    Autobiography
-  </a>
+  Autobiography
+</a>
 
 </div>
 <!-- TIMELINE -->
