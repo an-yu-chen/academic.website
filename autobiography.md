@@ -232,7 +232,7 @@ body {
     </p>
     <!-- UK MAP INSIDE STORY -->
     <div class="map-card" style="margin: 40px 0;">
-      <h2>United Kingdom Academic Journey</h2>
+      <h2>United Kingdom, where I studied my PhD</h2>
       <div id="uk-map" class="map-box"></div>
     </div>
     <p>
