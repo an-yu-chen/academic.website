@@ -247,7 +247,7 @@ a:hover {
   <h1>An Yu Chen</h1>
   <p class="subtitle">Innovation Policy & Sustainability Research | Science of Science | PhD in Science, Technology and Innovation Policy (Completed)</p>
   <p class="intro-text">
-I am currently working on research projects related to innovation policy, sustainability, environmental economics, and the management of science and technology. My research examines the use and exchange of operant resources among governments, academic institutions, and private firms, drawing upon data from sources including Web of Science, Scopus, and USPTO databases. I aim to continue making a positive impact through excellent research and teaching. Please explore the Research and Teaching sections in the menu for further information.
+I am currently working on research projects related to innovation policy, sustainability, environmental economics, and the management of science and technology. My research examines the use and exchange of operant resources among governments, academic institutions, and private firms, drawing upon data from sources including Web of Science, Scopus, and USPTO databases. I aim to continue making a positive impact through excellent research and teaching. Please explore the Research and Teaching sections in the menu for further information. You can always return to this main page by clicking my name, “An Yu Chen,” in the top left corner.
   </p>
 </div>
 <div class="action-buttons">
