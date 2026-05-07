@@ -127,8 +127,7 @@ body {
   <div class="page-title">
     <h1>Autobiography</h1>
     <p>
-      From Taiwan to Manchester — a journey shaped by economics, innovation,
-      research, and a lasting belief in the power of knowledge.
+      A journey shaped by economics, innovation, research, and a lasting belief in the power of knowledge.
     </p>
   </div>
 
@@ -152,7 +151,7 @@ body {
     </p>
     <!-- TAIWAN MAP INSIDE STORY -->
     <div class="map-card" style="margin: 40px 0;">
-      <h2>Taiwan Academic Journey</h2>
+      <h2>My Birthplace - Taiwan</h2>
       <div id="taiwan-map" class="map-box"></div>
     </div>
     <p>
