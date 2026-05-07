@@ -133,30 +133,28 @@ body {
   </div>
 
   <!-- TWO MAPS -->
-  <div class="map-wrapper">
-
-    <div class="map-card">
-      <h2>Taiwan</h2>
-      <div id="taiwan-map" class="map-box"></div>
-    </div>
-
-    <div class="map-card">
-      <h2>United Kingdom</h2>
-      <div id="uk-map" class="map-box"></div>
-    </div>
-
-  </div>
-
+   
   <!-- MAIN WRITING -->
   <div class="bio-card">
-
+    <p>
+      I was born in Taiwan, where my academic journey first began.
+      Growing up there gave me a strong appreciation for education, discipline,
+      and persistence. Taiwan’s dynamic environment of technology, industry,
+      and innovation shaped my early curiosity about economics and development.
+      It was there that I first learned how closely knowledge, policy, and
+      progress are connected.
+    </p>
     <p>
       I have always loved numbers and logic. Even from an early stage, I liked solving
       problems, and I liked getting things done on time. Data has become part of my life,
       and my attention on this seldom wavered. I followed this keenly for many years
       because I believed that understanding data means understanding how societies progress.
     </p>
-
+    <!-- TAIWAN MAP INSIDE STORY -->
+    <div class="map-card" style="margin: 40px 0;">
+      <h2>Taiwan Academic Journey</h2>
+      <div id="taiwan-map" class="map-box"></div>
+    </div>
     <p>
       When I was an undergraduate student at National Tsing Hua University in Taiwan,
       I studied Economics and worked very hard, graduating with a GPA of 3.7.
@@ -233,7 +231,11 @@ body {
       Just the friends I made—from people working in different and promising areas—
       have shaped me enormously.
     </p>
-
+    <!-- UK MAP INSIDE STORY -->
+    <div class="map-card" style="margin: 40px 0;">
+      <h2>United Kingdom Academic Journey</h2>
+      <div id="uk-map" class="map-box"></div>
+    </div>
     <p>
       Four years rolled by, and my PhD journey reached one of its most meaningful
       milestones. My thesis explored the contribution of scientific knowledge to
