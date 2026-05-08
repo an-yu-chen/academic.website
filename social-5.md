@@ -117,9 +117,7 @@ title: "Social Responsibility as an Ongoing Practice"
       Setting my mind on things brings peace, especially when work becomes demanding. It provides a source of relaxation in tense situations and helps me reflect on what is to come.
     </p>
 
-    <p class="quote">
-      Small contributions, carried consistently, often create the most meaningful change.
-    </p>
+     
   </div>
 
   <div class="journey-section">
