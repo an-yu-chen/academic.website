@@ -204,11 +204,7 @@ permalink: /conferences/
 
     </ul>
 
-    <div class="quote">
-      “Academic journeys are shaped not only by research,
-      but also by the people, conversations, and communities
-      encountered along the way.”
-    </div>
+     
 
   </div>
 
