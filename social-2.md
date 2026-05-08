@@ -117,9 +117,7 @@ title: "Center for Asia Policy (2015): Policy, Translation and Responsibility"
       I was quite into understanding how policy narratives are constructed. Leading to a better understanding of how information moves between academic, governmental, and public spaces, I began to appreciate that translation is not merely linguistic — it is interpretive and ethical.
     </p>
 
-    <p class="quote">
-      Translation is not only about language — it is about responsibility, context, and trust.
-    </p>
+     
   </div>
 
   <div class="journey-section">
