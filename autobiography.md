@@ -277,6 +277,34 @@ body {
       and I hope to continue contributing to that future with clarity,
       discipline, and curiosity.
     </p>
+    <p>
+  I am also deeply grateful for the people I have met through conferences,
+  workshops, and academic exchanges over the years. These encounters have
+  broadened my perspective, encouraged meaningful conversations, and reminded
+  me that research is strengthened through collaboration.
+</p>
+
+<div style="text-align: center; margin-top: 2.5rem;">
+  <a href="{{ site.baseurl }}/conferences/"
+     style="
+       display: inline-block;
+       background: linear-gradient(135deg, #7a553c, #5a3e2b);
+       color: #ffffff;
+       padding: 0.95rem 2rem;
+       border-radius: 40px;
+       text-decoration: none;
+       font-family: 'Source Serif 4', serif;
+       font-size: 1rem;
+       font-weight: 500;
+       letter-spacing: 0.4px;
+       box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+       transition: all 0.3s ease;
+     "
+     onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 12px 24px rgba(0,0,0,0.18)'"
+     onmouseout="this.style.transform='translateY(0px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.12)'">
+     View Conferences & Workshops
+  </a>
+</div>
 
   </div>
 
