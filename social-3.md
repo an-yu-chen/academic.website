@@ -129,10 +129,7 @@ title: "Academic Conferences: Service Through Community"
       understanding.
     </p>
 
-    <p class="quote">
-      Academic communities are built not only by ideas, but by the people who
-      make those conversations possible.
-    </p>
+    
   </div>
 
   <div class="journey-section">
