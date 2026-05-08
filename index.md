@@ -274,9 +274,11 @@ I am currently working on research projects related to innovation policy, sustai
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-date">2021–2025</div>
-    PhD in Science, Technology and Innovation Policy (Completed)
-  </div>
+      <div class="timeline-date">2021–2025</div>
+      PhD in Science, Technology and Innovation Policy, University of Manchester (Completed)
+      <br>• Supervisors: Professor Cornelia Lawson and Professor Silvia Massini
+      <br>• PhD Viva Examiners: Professor Kieron Flanagan and Professor Fabio Montobbio
+    </div>
 
   <div class="timeline-item">
     <div class="timeline-date">2018–2020</div>
