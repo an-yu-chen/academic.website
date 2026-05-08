@@ -324,11 +324,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(taiwanMap);
 
-L.marker([24.7873, 120.9969]).addTo(taiwanMap)
-  .bindPopup("<b>National Tsing Hua University</b><br>Economics & Technology Management");
-
 L.marker([25.0173, 121.5397]).addTo(taiwanMap)
-  .bindPopup("<b>National Taiwan University</b><br>Research Assistant");
+  .bindPopup("<b>Born in Taipei, Taiwan");
 
 /* UK MAP */
 var ukMap = L.map('uk-map', {
