@@ -38,11 +38,11 @@ navigation:
   - title: "Social Responsibility"
     url: "#"
     children:
-      - {title: "Article 1: Community Engagement", file: "social-1.md"}
-      - {title: "Article 2: Public Scholarship", file: "social-2.md"}
-      - {title: "Article 3: Sustainability and Impact", file: "social-3.md"}
-      - {title: "Article 4: Ethical Research Practice", file: "social-4.md"}
-      - {title: "Article 5: Inclusive Knowledge Sharing", file: "social-5.md"}
+      - {title: "Educational Volunteer", file: "social-1.md"}
+      - {title: "Using My Skills", file: "social-2.md"}
+      - {title: "Presence and Impact", file: "social-3.md"}
+      - {title: "Academic Reviewing", file: "social-4.md"}
+      - {title: "Ongoing Practice", file: "social-5.md"}
  
     
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
