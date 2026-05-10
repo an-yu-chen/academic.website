@@ -155,12 +155,11 @@ body {
       <div id="taiwan-map" class="map-box"></div>
     </div>
     <p>
-      When I was an undergraduate student at National Tsing Hua University in Taiwan,
-      I studied Economics and worked very hard, graduating with a GPA of 3.7.
-      During that period, I became increasingly interested in innovation, industrial
-      development, and economic transformation. Schumpeter’s ideas on innovation and
-      entrepreneurship made my mind full of ideas and encouraged me to think about
-      something more ambitious.
+    When I was an undergraduate student at National Tsing Hua University in Taiwan,
+    I studied Economics and enjoyed it very much, working hard throughout my studies.
+    During that period, I became increasingly interested in innovation, industrial development,
+    and economic transformation. Schumpeter’s ideas on innovation and entrepreneurship filled
+    my mind with ideas and encouraged me to think more ambitiously.
     </p>
 
     <p>
