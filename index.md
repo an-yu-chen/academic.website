@@ -324,10 +324,28 @@ I am currently working on research projects related to innovation policy, sustai
 
 <!-- RESEARCH INTERESTS -->
 <div class="section">
-  <h2>Research Interests</h2>
-  <div class="card">
-    Economics of Innovation · Science, Technology & Innovation Policy · Green Technologies · AI for Science · Knowledge Systems & Management · Sustainability Transitions · Digital Transformation of Science
-  </div>
+ <h2>Research Interests and Areas of Practice</h2>
+
+<div class="card">
+  <ul>
+    <li>
+      Economics of Innovation with a focus on technological change, knowledge creation, and the dynamics of emerging industries
+    </li>
+    <li>
+      Science, Technology & Innovation Policy examining research ecosystems
+    </li>
+    <li>
+      Green Technologies and Sustainable Innovation addressing environmental transitions
+    </li>
+    <li>
+      Critical reflection on AI, systems, and contemporary digital life
+    </li>
+    <li>
+      Digital Transformation of Science analysing the impact of digital infrastructures, computational methods, and intelligent technologies on scientific practice, collaboration, and innovation processes
+    </li>
+  </ul>
+</div>
+
 </div>
 
 <!-- CONNECT -->
