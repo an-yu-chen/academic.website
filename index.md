@@ -31,7 +31,7 @@ body {
 .profile-pic {
   width: 240px;
   height: 240px;
-  border-radius: 50%;
+  border-radius: 10%;
   object-fit: cover;
   border: 4px solid #fff;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
