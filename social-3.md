@@ -75,7 +75,7 @@ body {
   color: #43342a;
 }
 
-/* IMAGE ROW (NEW HORIZONTAL LAYOUT) */
+/* IMAGE ROW */
 
 .image-frame {
   display: flex;
@@ -86,19 +86,30 @@ body {
   margin-top: 3rem;
 }
 
+/* CARD WRAPPER */
 .image-item {
   flex: 1;
   min-width: 280px;
   text-align: center;
 }
 
+/* IMAGE (INSTAGRAM STYLE HOVER) */
 .image-item img {
   width: 100%;
   height: auto;
   border-radius: 16px;
   box-shadow: 0 12px 28px rgba(0,0,0,.10);
+  transition: transform .35s ease, box-shadow .35s ease;
+  cursor: pointer;
 }
 
+/* HOVER ZOOM EFFECT */
+.image-item img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 18px 40px rgba(0,0,0,.18);
+}
+
+/* CAPTION */
 .image-caption {
   margin-top: .6rem;
   margin-bottom: 2rem;
@@ -139,7 +150,7 @@ body {
   color: #dcc7b5;
 }
 
-/* MOBILE RESPONSIVE */
+/* MOBILE */
 
 @media (max-width:768px) {
 
@@ -205,7 +216,7 @@ body {
       understanding.
     </p>
 
-    <!-- IMAGE ROW -->
+    <!-- IMAGE GALLERY -->
     <div class="image-frame">
 
       <div class="image-item">
