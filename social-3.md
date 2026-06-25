@@ -62,6 +62,38 @@ title: "Academic Conferences: Service Through Community"
   color: #3f2e22;
 }
 
+/* --- PHOTO GRID (NEW) --- */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.8rem;
+  margin-top: 2rem;
+}
+
+.photo-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+.photo-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-caption {
+  padding: 0.9rem 1rem;
+  font-size: 0.9rem;
+  color: #6b4a35;
+  text-align: center;
+  font-style: italic;
+  border-top: 1px solid #f0e6dd;
+}
+
+/* --- QUOTE --- */
 .quote {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.6rem;
@@ -129,7 +161,21 @@ title: "Academic Conferences: Service Through Community"
       understanding.
     </p>
 
-    
+    <!-- PHOTO SECTION (NEW) -->
+    <div class="photo-grid">
+
+      <div class="photo-card">
+        <img src="C.png" alt="Conference volunteering photo 1">
+        <div class="photo-caption">© An Yu Chen</div>
+      </div>
+
+      <div class="photo-card">
+        <img src="C1.png" alt="Conference volunteering photo 2">
+        <div class="photo-caption">© An Yu Chen</div>
+      </div>
+
+    </div>
+
   </div>
 
   <div class="journey-section">
