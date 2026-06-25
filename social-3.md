@@ -165,12 +165,12 @@ title: "Academic Conferences: Service Through Community"
     <div class="photo-grid">
 
       <div class="photo-card">
-        <img src="C.png" alt="Conference volunteering photo 1">
+        <img src="{{ site.baseurl }}/assets/C.png" alt="Conference volunteering photo 1">
         <div class="photo-caption">© An Yu Chen</div>
       </div>
 
       <div class="photo-card">
-        <img src="C1.png" alt="Conference volunteering photo 2">
+        <img src="{{ site.baseurl }}/assets/C1.png" alt="Conference volunteering photo 2">
         <div class="photo-caption">© An Yu Chen</div>
       </div>
 
