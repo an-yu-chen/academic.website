@@ -19,6 +19,8 @@ body {
   line-height: 1.9;
 }
 
+/* HEADER */
+
 .journey-header {
   background: linear-gradient(135deg, #f2ebe2, #e6d8c7);
   padding: 4rem 3rem;
@@ -34,7 +36,6 @@ body {
   font-weight: 600;
   color: #5a3f2e;
   margin-bottom: .8rem;
-  letter-spacing: .5px;
 }
 
 .journey-header p {
@@ -43,6 +44,8 @@ body {
   max-width: 700px;
   margin: 0 auto;
 }
+
+/* SECTION */
 
 .journey-section {
   background: #ffffff;
@@ -72,30 +75,39 @@ body {
   color: #43342a;
 }
 
-/* Images */
+/* IMAGE ROW (NEW HORIZONTAL LAYOUT) */
 
 .image-frame {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   margin-top: 3rem;
+}
+
+.image-item {
+  flex: 1;
+  min-width: 280px;
   text-align: center;
 }
 
-.image-frame img {
-  display: block;
-  width: auto;
-  max-width: 100%;
+.image-item img {
+  width: 100%;
   height: auto;
-  margin: 0 auto;
   border-radius: 16px;
   box-shadow: 0 12px 28px rgba(0,0,0,.10);
 }
 
 .image-caption {
   margin-top: .6rem;
-  margin-bottom: 2.8rem;
+  margin-bottom: 2rem;
   font-size: .82rem;
   color: #8a7464;
   font-style: italic;
 }
+
+/* QUOTE */
 
 .quote {
   font-family: 'EB Garamond', serif;
@@ -126,6 +138,8 @@ body {
   font-size: 4rem;
   color: #dcc7b5;
 }
+
+/* MOBILE RESPONSIVE */
 
 @media (max-width:768px) {
 
@@ -191,17 +205,18 @@ body {
       understanding.
     </p>
 
+    <!-- IMAGE ROW -->
     <div class="image-frame">
 
-      <img src="{{ site.baseurl }}/assets/C1.png"
-           alt="Conference volunteering photo">
+      <div class="image-item">
+        <img src="{{ site.baseurl }}/assets/C1.png" alt="Conference volunteering photo 1">
+        <div class="image-caption">© An Yu Chen</div>
+      </div>
 
-      <div class="image-caption">© An Yu Chen</div>
-
-      <img src="{{ site.baseurl }}/assets/C.png"
-           alt="Conference volunteering photo">
-
-      <div class="image-caption">© An Yu Chen</div>
+      <div class="image-item">
+        <img src="{{ site.baseurl }}/assets/C.png" alt="Conference volunteering photo 2">
+        <div class="image-caption">© An Yu Chen</div>
+      </div>
 
     </div>
 
