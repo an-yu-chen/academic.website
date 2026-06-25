@@ -38,9 +38,9 @@ navigation:
   - title: "Social Responsibility"
     url: "#"
     children:
+      - {title: "Academic Conferences", file: "social-3.md"}
+      - {title: "Translating in Academia", file: "social-2.md"}
       - {title: "Educational Volunteer", file: "social-1.md"}
-      - {title: "Using My Skills", file: "social-2.md"}
-      - {title: "Presence and Impact", file: "social-3.md"}
       - {title: "Academic Reviewing", file: "social-4.md"}
       - {title: "Ongoing Practice", file: "social-5.md"}
  
