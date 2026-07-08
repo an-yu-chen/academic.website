@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Center for Asia Policy (2015): Policy, Translation and Responsibility"
+title: "Center for Asia Policy (CAP): Policy, Translation and Responsibility"
 ---
 
 <style>
@@ -96,7 +96,7 @@ title: "Center for Asia Policy (2015): Policy, Translation and Responsibility"
 <div class="journey-container">
 
   <div class="journey-header">
-    <h1>Center for Asia Policy (2015)</h1>
+    <h1>Center for Asia Policy (CAP)</h1>
     <p>
       Policy, translation, and responsibility in academic and international affairs.
     </p>
@@ -106,7 +106,7 @@ title: "Center for Asia Policy (2015): Policy, Translation and Responsibility"
     <h2>Policy, Translation and Responsibility</h2>
 
     <p>
-      In 2015, I joined the Center for Asia Policy (CAP) at National Tsing Hua University in Hsinchu, Taiwan, as an intern. Working under the guidance of Bill (William A. Stanton), this became another formative stage in my understanding of social responsibility in academic and policy contexts.
+      In 2013, I joined the Center for Asia Policy (CAP) at National Tsing Hua University in Hsinchu, Taiwan, as an intern. Working under the guidance of Bill (William A. Stanton), this became another formative stage in my understanding of social responsibility in academic and policy contexts.
     </p>
 
     <p>
