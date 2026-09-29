@@ -267,7 +267,14 @@ I am currently working on research projects related to innovation policy, sustai
 
   
 <div class="timeline">
-
+  <div class="timeline-item">
+    <div class="timeline-date">September 2026</div>
+    Contributed to WIPO’s <em>Women, Innovation and Impact</em> booklet
+    <br><br>
+    <a href="https://www.wipo.int/publications/en/details.jsp?id=4879" target="_blank" rel="noopener noreferrer">
+      View the WIPO publication →
+    </a>
+  </div>
   <div class="timeline-item">
     <div class="timeline-date">2025–2026</div>
     Research Associate in Science of Science, University of Manchester
