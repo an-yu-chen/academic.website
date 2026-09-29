@@ -24,6 +24,7 @@ navigation:
       - {title: "Science–Technology Linkages", file: "research-3.md"}
       - {title: "Knowledge Infrastructure and Policy", file: "research-4.md"}
       - {title: "Gender and Knowledge Flow", file: "research-5.md"}
+      - {title: "Intellectual Property and Innovation", file: "research-6.md"}
 
   - title: "Teaching"
     url: "#"
