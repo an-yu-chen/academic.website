@@ -10,7 +10,7 @@ title: "Intellectual Property and Innovation"
   WIPO Academy General Course on Intellectual Property.
 </p>
 
-</div> <!-- COURSE INFORMATION --> <div class="ip-meta"> <span class="ip-tag">WIPO Academy</span> <span class="ip-tag">DL-101</span> <span class="ip-tag">July–August 2026</span> <span class="ip-tag">55 hours</span> </div> <!-- INTRODUCTION --> <div class="ip-section">
+</div> <!-- COURSE INFORMATION --> <div class="ip-meta"> <span class="ip-tag">WIPO Academy</span> <span class="ip-tag">DL-101</span> </div> <!-- INTRODUCTION --> <div class="ip-section">
 <h2>📚 A new layer to my research</h2>
 
 <p>
