@@ -156,21 +156,22 @@ body {
   <h2>Academic Milestone Timeline</h2>
 
   <div class="timeline">
+<div class="timeline-item">
+  <h4>September 2026</h4>
+  <p>
+    Contributed to WIPO’s <em>Women, Innovation and Impact</em> booklet,
+    part of the Women and IP initiative.
+    <br><br>
+    <a href="https://www.wipo.int/publications/en/details.jsp?id=4879" target="_blank" rel="noopener noreferrer">
+      View the WIPO publication →
+    </a>
+  </p>
+  <p>
+    Successfully completed the WIPO Academy
+    <strong>General Course on Intellectual Property</strong>,
+</div>
 
     <div class="timeline-item">
-      <h4>September 2026</h4>
-      <p>Contributed to WIPO’s <em>Women, Innovation and Impact</em> booklet,
-    <br><br>
-        <a href="https://www.wipo.int/publications/en/details.jsp?id=4879" target="_blank" rel="noopener noreferrer">
-          View the WIPO publication →
-        </a>
-      </p>
-      <p>
-      Successfully completed the WIPO Academy
-      <strong>General Course on Intellectual Property</strong>,
-      undertaken from July 5 to August 18, 2026.
-     </p>
-    </div>
       <h4>2026</h4>
       <p>Completed postdoctoral phase in Science of Science research.</p>
     </div>
