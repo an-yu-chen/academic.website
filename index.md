@@ -363,8 +363,8 @@ a:hover {
   top: -19px;
   left: 50%;
   transform: translateX(-50%);
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background: var(--blue);
   border: 3px solid var(--white);
