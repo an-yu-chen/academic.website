@@ -496,7 +496,7 @@ a:hover {
    ========================================= */
 
 .section.map-section {
-  padding-top: 45px;
+  padding-top: 15px;
   padding-bottom: 55px;
 }
 
