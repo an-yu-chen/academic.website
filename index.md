@@ -464,7 +464,7 @@ a:hover {
 }
 
 .connect p {
-  margin: 8px auto 12px;
+  margin: 8px auto 9px;
   color: var(--muted);
   font-size: 1rem;
 }
