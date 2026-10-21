@@ -173,6 +173,7 @@ a:hover {
   line-height: 2;
 }
 
+
 /* =========================================
    ACTION BUTTONS
    ========================================= */
@@ -183,7 +184,9 @@ a:hover {
   align-items: center;
   gap: 16px;
   flex-wrap: wrap;
-  margin: -3px 20px 42px;
+  margin: 16px 20px 42px;
+  padding-top: 8px;
+  overflow: visible;
 }
 
 .btn {
@@ -191,12 +194,17 @@ a:hover {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  box-sizing: border-box;
   padding: 12px 24px;
+  min-height: 48px;
+  line-height: 1.5;
   border-radius: 999px;
   font-family: "Manrope", sans-serif;
   font-size: 0.95rem;
   font-weight: 700;
   text-decoration: none;
+  white-space: normal;
+  overflow: visible;
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease,
@@ -229,6 +237,7 @@ a:hover {
   border-color: var(--yellow);
   transform: translateY(-3px);
 }
+
 
 /* =========================================
    GENERAL SECTIONS
