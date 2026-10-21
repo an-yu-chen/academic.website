@@ -1,303 +1,96 @@
-
-/* =========================================
-   GLOBAL STYLES
-   Blue, Yellow & White Academic Theme
-   ========================================= */
-
 body
-  background: #ffffff
-  color: #243247
-  font-family: "DM Sans", sans-serif
-  font-weight: 400
-  font-size: 16px
-  line-height: 1.8
+  background: $light
+  color: $dark
+  font-family: $font-family
+  font-weight: $font-weight
+  font-size: $font-size
+  line-height: $line-height
   margin: 0
   min-height: 100vh
   -webkit-text-size-adjust: 100%
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 
-/* Keep the website colours consistent in dark mode */
-html
-  color-scheme: light
-
-/* =========================================
-   TYPOGRAPHY
-   ========================================= */
+@media (prefers-color-scheme: dark)
+  body
+    background: $dark
+    color: $light
 
 h1, h2, h3, h4, h5, h6
-  font-family: "Manrope", sans-serif
-  font-weight: 800
-  color: #103568
-  line-height: 1.4
-
-h1
-  letter-spacing: -1.5px
-
-h2
-  letter-spacing: -.7px
+  font-weight: $heading-weight
 
 b, strong, th
-  font-weight: 700
+  font-weight: $font-weight + 200
 
 p
   text-align: justify
 
-/* =========================================
-   LINKS
-   ========================================= */
-
 a
-  color: #164e9a
+  color: $link-color
   text-decoration: inherit
-  transition: color .2s ease, background .2s ease
-
   &:hover
-    color: #103568
     text-decoration: underline
 
-/* =========================================
-   HEADER & TOP NAVIGATION
-   ========================================= */
-
-header
-  position: relative
-  z-index: 1000
-  background: #ffffff !important
-  color: #164e9a !important
-  border-bottom: 1px solid #dce5f1
-  box-shadow: 0 3px 14px rgba(16, 53, 104, .06)
-
-  /* Website name at the top left */
-  a.title
-    color: #164e9a !important
-    font-family: "Manrope", sans-serif
-    font-weight: 800
-    text-decoration: none
-
-    &:hover
-      color: #103568 !important
-      text-decoration: none
-
-  /* Navigation bar */
-  nav
-    background: #ffffff !important
-    color: #164e9a !important
-
-    > ul
-      list-style: none
-      margin: 0
-      padding: 0
-
-      > li
-        position: relative
-        margin: 0
-
-        > a
-          display: block
-          padding: 12px 15px
-          color: #164e9a !important
-          background: #ffffff !important
-          font-family: "DM Sans", sans-serif
-          font-size: .96rem
-          font-weight: 600
-          text-decoration: none
-          border-radius: 8px
-          transition: background .2s ease, color .2s ease
-
-          &:hover,
-          &:focus-visible
-            background: #fff5c9 !important
-            color: #103568 !important
-            text-decoration: none
-
-          &.selected
-            background: #eaf2ff !important
-            color: #103568 !important
-            font-weight: 700
-            box-shadow: inset 0 -3px 0 #ffd447
-
-        /* Dropdown menu */
-        > ul
-          display: none
-          position: absolute
-          top: 100%
-          left: 0
-          min-width: 210px
-          margin: 0
-          padding: 8px
-          list-style: none
-          background: #ffffff !important
-          border: 1px solid #dce5f1
-          border-top: 3px solid #ffd447
-          border-radius: 0 0 12px 12px
-          box-shadow: 0 12px 28px rgba(16, 53, 104, .14)
-          z-index: 1100
-
-          > li
-            display: block
-            width: 100%
-            margin: 0
-
-            > a
-              display: block
-              padding: 10px 13px
-              color: #164e9a !important
-              background: #ffffff !important
-              font-family: "DM Sans", sans-serif
-              font-size: .94rem
-              font-weight: 500
-              text-decoration: none
-              border-radius: 7px
-
-              &:hover,
-              &:focus-visible
-                color: #103568 !important
-                background: #fff5c9 !important
-                text-decoration: none
-
-        /* Show dropdown on hover and keyboard focus */
-        > ul
-          display: none
-
-        &:hover > ul,
-        &:focus-within > ul
-          display: block
-
-/* Ensure header links do not inherit unwanted theme colours */
-header a,
-header nav a,
-header nav ul li a
-  color: #164e9a
-
-/* =========================================
-   FOOTER & SIDEBAR LINKS
-   ========================================= */
-
-footer a,
-aside a
-  color: #164e9a
-
-  &:hover
-    color: #103568
+header a, footer a, aside a
+  color: inherit
 
 header time
-  color: #66758a
-
-/* =========================================
-   DIVIDERS & ARTICLES
-   ========================================= */
+  color: reduce(100)
 
 hr
-  border: 1px solid #dce5f1
+  border: 1px solid reduce(30)
   margin: 2em 0
 
 article:not(:last-of-type)
-  border-bottom: 1px solid #e5ebf4
-
-/* =========================================
-   BLOCKQUOTES
-   ========================================= */
+  border-bottom: 1px solid reduce(14)
 
 blockquote
-  background: #f4f8ff
-  border-left: 4px solid #ffd447
+  background: reduce(6)
+  border-left: 3px solid reduce(90)
   padding: 1px 1.5em
-  border-radius: 0 10px 10px 0
-  color: #40516a
+  opacity: .75
 
 blockquote, figure
   margin: 1em 0
 
-/* =========================================
-   IMAGES
-   ========================================= */
-
 img
   margin: .5em 0
-  border-radius: 4px
-  max-width: 100%
-  height: auto
-
-/* =========================================
-   LISTS
-   ========================================= */
 
 li
   margin: .25em 0
 
-/* =========================================
-   TABLES
-   ========================================= */
+img
+  border-radius: 2px
+  max-width: 100%
+  height: auto
 
 table
   display: inline-block
   max-width: 100%
-  overflow-y: auto
+  overflow-y: scroll
   border-spacing: 1px
-  border-radius: 8px
-  box-shadow: 0 0 0 1px #dce5f1 inset
-  background: #ffffff
+  border-radius: 2px
+  box-shadow: 0 0 0 1px reduce(12) inset
 
 th, td
   padding: .5em 1em
-  box-shadow: 0 0 0 1px #dce5f1
-  color: #243247
+  box-shadow: 0 0 0 1px reduce(12)
 
-th
-  background: #eaf2ff
-  color: #103568
-
-tr:hover,
-tr:nth-child(odd) td
-  background: #f4f8ff
-
-/* =========================================
-   CODE BLOCKS
-   ========================================= */
+tr:hover, tr:nth-child(odd) td
+  background: reduce(4)
 
 pre
-  background: #f4f8ff
-  color: #243247
-  border: 1px solid #dce5f1
-  border-radius: 8px
-  font-size: .85em
+  background: reduce(12)
+  border-radius: 2px
+  font-size: .8em
   margin: 1.5em 0
   padding: .8em 1.2em
   overflow-x: auto
 
-:not(pre) > code
+\:not(pre) > code
   font-size: .9em
-  background: #eaf2ff
-  color: #103568
-  border-radius: 4px
+  background: reduce(15)
+  opacity: .7
+  border-radius: 2px
   margin: 0 .1em
   padding: .2em .4em
-
-/* =========================================
-   ACCESSIBILITY
-   ========================================= */
-
-a:focus-visible
-  outline: 3px solid #d8a900
-  outline-offset: 3px
-
-/* =========================================
-   RESPONSIVE NAVIGATION
-   ========================================= */
-
-@media (max-width: 768px)
-  header nav > ul > li > a
-    padding: 10px 11px
-
-  header nav > ul > li > ul
-    min-width: 185px
-
-@media (prefers-reduced-motion: reduce)
-  *,
-  *::before,
-  *::after
-    scroll-behavior: auto !important
-    animation-duration: .01ms !important
-    animation-iteration-count: 1 !important
-    transition-duration: .01ms !important
