@@ -440,7 +440,7 @@ a:hover {
 .connect {
   position: relative;
   margin-top: 15px;
-  padding: 48px 24px 45px;
+  padding: 48px 24px 15px;
   text-align: center;
   background:
     radial-gradient(
