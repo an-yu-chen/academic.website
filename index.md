@@ -363,9 +363,9 @@ a:hover {
   top: -19px;
   left: 50%;
   transform: translateX(-50%);
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border-radius: 60%;
   background: var(--blue);
   border: 3px solid var(--white);
   box-shadow: 0 0 0 3px rgba(22, 78, 154, 0.16);
