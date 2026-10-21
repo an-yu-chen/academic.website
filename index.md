@@ -365,7 +365,7 @@ a:hover {
   transform: translateX(-50%);
   width: 25px;
   height: 25px;
-  border-radius: 60%;
+  border-radius: 80%;
   background: var(--blue);
   border: 3px solid var(--white);
   box-shadow: 0 0 0 3px rgba(22, 78, 154, 0.16);
@@ -464,7 +464,7 @@ a:hover {
 }
 
 .connect p {
-  margin: 8px auto 9px;
+  margin: 8px auto 6px;
   color: var(--muted);
   font-size: 1rem;
 }
