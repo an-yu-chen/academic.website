@@ -439,7 +439,7 @@ a:hover {
 
 .connect {
   position: relative;
-  margin-top: 30px;
+  margin-top: 15px;
   padding: 48px 24px 45px;
   text-align: center;
   background:
@@ -455,7 +455,7 @@ a:hover {
 
 .connect h2 {
   display: inline-block;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .connect h2::after {
@@ -464,7 +464,7 @@ a:hover {
 }
 
 .connect p {
-  margin: 8px auto 22px;
+  margin: 8px auto 12px;
   color: var(--muted);
   font-size: 1rem;
 }
