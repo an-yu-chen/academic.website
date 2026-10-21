@@ -904,6 +904,7 @@ button:focus-visible {
 
 </div>
 
+
 <!-- =========================================
      CONNECT WITH ME
      ========================================= -->
@@ -913,8 +914,8 @@ button:focus-visible {
   <h2>Connect with Me</h2>
 
   <p>
-    If you'd like to get in contact with me you can find my LinkedIn or
-    via my email
+    If you'd like to get in contact with me, you can find me on LinkedIn or
+    via my email.
   </p>
 
   <a
@@ -923,13 +924,11 @@ button:focus-visible {
     rel="noopener noreferrer"
     aria-label="Visit An Yu Chen's LinkedIn profile"
   >
-
     <img
       src="assets/linkedin.png"
       alt="LinkedIn"
       loading="lazy"
     >
-
   </a>
 
 </div>
