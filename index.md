@@ -476,7 +476,7 @@ a:hover {
 
 .connect img {
   display: block;
-  width: 230px;
+  width: 450px;
   max-width: 80vw;
   height: auto;
   margin: 0 auto;
