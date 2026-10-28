@@ -54,7 +54,7 @@ title: "Home"
   <section class="academic-hero">
     <div class="academic-profile-wrap">
       <img src="{{ '/assets/profile_picture.jpg' | relative_url }}" class="academic-profile" alt="Profile photo of An Yu Chen">
-      <span class="academic-profile-caption">PhD · University of Manchester</span>
+      <span class="academic-profile-caption">Dr. Chen earned PhD degree from University of Manchester</span>
     </div>
     <p class="academic-eyebrow">Science · Innovation · Sustainability</p>
     <h1>An Yu Chen</h1>
