@@ -365,16 +365,16 @@ title: "Home"
         alt="Portrait of Dr An Yu Chen"
         loading="eager"
       >
-      <span class="academic-profile-caption">PhD, Science, Technology and Innovation Policy · University of Manchester</span>
+      <span class="academic-profile-caption">Welcome to my academic website</span>
     </div>
 
-    <p class="academic-eyebrow">Research · Innovation · Sustainability</p>
+    
     <h1>An Yu Chen</h1>
-    <p class="academic-subtitle">Innovation Economics · Science of Science · Green Technological Change</p>
+    <p class="academic-subtitle">academic profile</p>
     <div class="academic-rule"></div>
 
     <p class="academic-intro">
-      I am a researcher in science, technology and innovation policy. My work examines how scientific knowledge contributes to technological development and innovation, with a particular interest in green technologies, knowledge networks, and the links between academic research and industry. I use bibliometric and patent data, computational techniques, and mixed-methods approaches to investigate how knowledge is created, circulated, and translated into technological and societal outcomes.
+     I am a researcher in science, technology and innovation policy. My research examines how scientific knowledge contributes to technological development and innovation, with a particular interest in green technologies, knowledge networks, and the links between academic research and industry. I use bibliometric and patent data, computational techniques, and mixed-methods approaches to investigate how knowledge is created, circulated, and translated into technological and societal outcomes. I hold a doctorate in Science, Technology and Innovation Policy from the University of Manchester, UK. I previously worked as a Postdoctoral Research Associate (PDRA) at the Manchester Institute of Innovation Research (MIoIR), where I conducted research on science, technology and innovation. I have also been a visiting researcher at the Entrepreneurship, Finance and Innovation (EFI) research group at Politecnico di Milano, Italy, and undertook a research internship at Otto von Guericke University Magdeburg, Germany. My academic and research experience has enabled me to develop an interdisciplinary perspective on the dynamics of innovation, the role of scientific knowledge in technological change, and the interactions between universities, industry, and wider innovation systems.
     </p>
   </section>
 
