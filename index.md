@@ -354,10 +354,10 @@ title: "Home"
 .academic-social:hover { background: var(--am); text-decoration: none !important; }
 .academic-linkedin-photo {
   display: block;
-  width: 55px;
-  height: 55px;
+  width: 85px;
+  height: 85px;
   margin: 18px auto 0;
-  border-radius: 50%;
+  border-radius: 70%;
   object-fit: cover;
   border: 2px solid var(--line);
   box-shadow: 0 4px 12px #073d7b18;
