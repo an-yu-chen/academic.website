@@ -319,7 +319,7 @@ title: "Home"
   display: block;
   width: 110px;
   height: auto;
-  max-height: 90px;
+  max-height: 130px;
   margin-top: 14px;
   border: 2px solid var(--line);
   border-radius: 9px;
