@@ -42,27 +42,7 @@ title: "Home"
   background: #fff;
   text-align: center;
 }
-.academic-hero::before {
-  position: absolute;
-  top: 27px;
-  left: calc(50% - 32px);
-  width: 64px;
-  height: 5px;
-  border-radius: 8px;
-  background: var(--ay);
-  content: "";
-}
-.academic-hero::after {
-  position: absolute;
-  top: 45px;
-  right: max(calc((100% - 1000px) / 2), 22px);
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: var(--ay);
-  content: "";
-  pointer-events: none;
-}
+
 .academic-profile-wrap {
   position: relative;
   z-index: 1;
