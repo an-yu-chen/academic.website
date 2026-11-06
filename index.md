@@ -370,7 +370,7 @@ title: "Home"
 
     
     <h1>An Yu Chen</h1>
-    <p class="academic-subtitle">academic profile</p>
+    <p class="academic-subtitle">Academic Profile</p>
     <div class="academic-rule"></div>
 
     <p class="academic-intro">
