@@ -271,6 +271,50 @@ title: "Home"
   color: var(--ab);
   font: 800 1rem "Manrope", sans-serif;
 }
+.academic-timeline-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.academic-timeline-item::after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #ffd633;
+  box-shadow:
+    0 0 5px #ffd633,
+    0 0 12px #ffd633,
+    0 0 22px #ffd633;
+  animation: academic-shine 2s ease-in-out infinite;
+}
+
+@keyframes academic-shine {
+  0%, 100% {
+    opacity: 0.45;
+    transform: scale(0.8);
+    box-shadow: 0 0 4px #ffd633;
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.25);
+    box-shadow:
+      0 0 7px #ffd633,
+      0 0 15px #ffd633,
+      0 0 25px #ffd633;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .academic-timeline-item::after {
+    animation: none;
+    opacity: 1;
+  }
+}
 .academic-graduation-photo {
   display: block;
   width: 110px;
