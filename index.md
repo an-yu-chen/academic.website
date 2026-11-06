@@ -436,7 +436,7 @@ title: "Home"
 
   <nav class="academic-actions" aria-label="Main profile links">
     <a href="{{ '/assets/CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="academic-btn academic-btn-primary">View my CV ↗</a>
-    <a href="{{ '/autobiography/' | relative_url }}" class="academic-btn academic-btn-secondary">About me →</a>
+    <a href="{{ '/autobiography/' | relative_url }}" class="academic-btn academic-btn-secondary">Autobiography →</a>
     <a href="#academic-research-interests" class="academic-btn academic-btn-secondary">Explore my research ↓</a>
   </nav>
 
@@ -551,10 +551,10 @@ title: "Home"
     <h2 class="academic-section-title">Methods and research practice</h2>
     <div class="academic-card">
       <p>
-        My research combines quantitative analysis with computational and qualitative approaches. I have worked with large-scale publication and patent datasets from sources including Scopus, OpenAlex, Web of Science, and patent databases, and have developed analytical workflows for research projects and policy-facing outputs.
+        My research combines quantitative, computational, experimental and qualitative approaches. I have worked with large-scale publication and patent datasets from sources including Scopus, OpenAlex, Web of Science, and patent databases, and have developed analytical workflows for research projects and policy-facing outputs.
       </p>
       <p>
-        My technical experience includes Python, R, PySpark, SQL, Stata, and SAS. My methodological toolkit includes bibliometric analysis, network analysis, text classification, topic modelling, natural language processing, and transformer-based language models. I value rigorous research design, transparent methods, reproducible workflows, and clear communication of findings.
+        My technical experience includes Python, R, PySpark, NVivo, SQL, Stata, and SAS. My methodological toolkit includes bibliometric analysis, network analysis, text classification, topic modelling, natural language processing, transformer-based language models, and qualitative methods including interviews, ethnographic fieldwork, observation and thematic analysis. I highly value ethical research design, transparency, fairness, methodological integrity, and clear communication of research findings.
       </p>
       <p>
         I have also contributed to interdisciplinary research projects, supported research assistants, presented work at international conferences, and contributed to academic manuscripts and reports for research and policy audiences.
