@@ -352,6 +352,16 @@ title: "Home"
   font-weight: 800;
 }
 .academic-social:hover { background: var(--am); text-decoration: none !important; }
+.academic-linkedin-photo {
+  display: block;
+  width: 55px;
+  height: 55px;
+  margin: 18px auto 0;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--line);
+  box-shadow: 0 4px 12px #073d7b18;
+}
 
 .academic-map {
   z-index: 1;
@@ -566,6 +576,13 @@ title: "Home"
       target="_blank"
       rel="noopener noreferrer"
     >Connect on LinkedIn ↗</a>
+    <!-- Small profile photo (not clickable) -->
+    <img
+      src="{{ '/assets/Linkin.jpg' | relative_url }}"
+      alt="LinkedIn profile photo"
+      class="academic-linkedin-photo"
+      loading="lazy"
+    >
   </section>
 
   <!-- ACADEMIC NETWORK -->
