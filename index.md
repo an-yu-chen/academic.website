@@ -437,7 +437,6 @@ title: "Home"
   <nav class="academic-actions" aria-label="Main profile links">
     <a href="{{ '/assets/CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="academic-btn academic-btn-primary">View my CV ↗</a>
     <a href="{{ '/autobiography/' | relative_url }}" class="academic-btn academic-btn-secondary">Autobiography →</a>
-    <a href="#academic-research-interests" class="academic-btn academic-btn-secondary">Explore my research ↓</a>
   </nav>
 
   <!-- RESEARCH PROFILE -->
