@@ -271,6 +271,18 @@ title: "Home"
   color: var(--ab);
   font: 800 1rem "Manrope", sans-serif;
 }
+.academic-graduation-photo {
+  display: block;
+  width: 110px;
+  height: auto;
+  max-height: 90px;
+  margin-top: 14px;
+  border: 2px solid var(--line);
+  border-radius: 9px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 4px 12px #073d7b14;
+}
 .academic-timeline-item:nth-child(even) .academic-timeline-date { color: #806000; }
 .academic-timeline-item a { display: inline-block; margin-top: 8px; font-weight: 700; }
 
@@ -459,9 +471,18 @@ title: "Home"
       </article>
 
       <article class="academic-timeline-item">
-        <span class="academic-timeline-date">2021–2026</span>
-        PhD in Science, Technology and Innovation Policy, University of Manchester. Thesis: <em>The contribution of scientific knowledge to green technology development: Three essays.</em>
-      </article>
+          <span class="academic-timeline-date">2021–2026</span>
+          PhD in Science, Technology and Innovation Policy,
+          University of Manchester. Thesis:
+          <em>The contribution of scientific knowledge to green
+          technology development: Three essays.</em>
+          <img
+            src="{{ '/assets/graduation_photo.jpg' | relative_url }}"
+            class="academic-graduation-photo"
+            alt="Graduation photo"
+            loading="lazy"
+          >
+        </article>
 
       <article class="academic-timeline-item">
         <span class="academic-timeline-date">2017–2020</span>
