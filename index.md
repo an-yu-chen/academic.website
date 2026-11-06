@@ -578,7 +578,7 @@ title: "Home"
     >Connect on LinkedIn ↗</a>
     <!-- Small profile photo (not clickable) -->
     <img
-      src="{{ '/assets/Linkin.jpg' | relative_url }}"
+      src="{{ '/assets/linkin.jpg' | relative_url }}"
       alt="LinkedIn profile photo"
       class="academic-linkedin-photo"
       loading="lazy"
