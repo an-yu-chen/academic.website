@@ -216,12 +216,22 @@ title: "Home"
   font-size: 22px;
   font-weight: 800;
 }
+
 .academic-interest h3 {
-  margin: 0 0 8px;
+  margin: 0 0 12px;
   color: var(--ab);
-  font: 800 1.04rem/1.4 "Manrope", sans-serif;
+  font: 800 1.04rem/1.45 "Manrope", sans-serif;
+  text-align: left;
 }
-.academic-interest p { margin: 0; color: var(--muted); font-size: .92rem; line-height: 1.7; }
+
+.academic-interest p {
+  margin: 0;
+  color: var(--muted);
+  font-size: .92rem;
+  line-height: 1.85;
+  text-align: left;
+  text-wrap: pretty;
+}
 
 .academic-timeline {
   display: flex;
